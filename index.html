@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<div id="beers">
+    <div class="navbar navbar-light bg-light">
+        <div class="form-group">
+            <label for="search">Start typing to search the list:</label>
+            <input id="search" class="search form-control form-control-lg" placeholder="Search"/>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th>
+                    <button class="sort" data-sort="brewery">Brewery</button>
+                </th>
+                <th>
+                    <button class="sort" data-sort="name">Name</button>
+                </th>
+                <th>
+                    <button class="sort" data-sort="abv">abv</button>
+                </th>
+                <th>
+                    <button class="sort" data-sort="bar">Bar</button>
+                </th>
+                <th>
+                    <button class="sort" data-sort="region">Region</button>
+                </th>
+            </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+            {% for beer in site.data.beers %}
+            <tr>
+                <td class="brewery">
+                    {{ beer.brewery }}
+                    {% if beer.new_brewery %}
+                        &nbsp;<span class="badge badge-pill badge-danger">new</span>
+                    {% endif %}
+                </td>
+                <td>
+                    <a data-toggle="modal" href="#desc{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span  class="name">{{ beer.beer }}</span>
+                    </a>
+                    <div class="modal fade"  id="desc{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">{{ beer.beer }} ({{ beer.brewery }})</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    {{ beer.desc }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td class="abv">{{ beer.abv }}%</td>
+                <td class="bar">
+                    {% for bar in beer.bar %}
+                        {% if bar == 'Main Bar 1' %}
+                            <span class="badge badge-pill badge-dark">&nbsp;1&nbsp;</span>
+                        {% elsif bar == 'Main Bar 2' %}
+                            <span class="badge badge-pill badge-dark">&nbsp;2&nbsp;</span>
+                        {% elsif bar == 'Main Bar 3' %}
+                            <span class="badge badge-pill badge-dark">&nbsp;3&nbsp;</span>
+                        {% elsif bar == 'Main Bar 4' %}
+                            <span class="badge badge-pill badge-dark">&nbsp;4&nbsp;</span>
+                        {% elsif bar == 'Singles Bar' %}
+                            <span class="badge badge-pill badge-success">&nbsp;SB&nbsp;</span>
+                        {% elsif bar == 'Key Keg Bar' %}
+                            <span class="badge badge-pill badge-secondary">&nbsp;KK&nbsp;</span>
+                        {% elsif bar == 'Festival Special' %}
+                            <span class="badge badge-pill badge-primary">&nbsp;FEST&nbsp;</span>
+                        {% else %}
+                            <span class="badge badge-pill badge-info">&nbsp;BB&nbsp;</span>
+                        {% endif %}
+                    {% endfor %}
+                </td>
+                <td class="region">{{ beer.location }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+

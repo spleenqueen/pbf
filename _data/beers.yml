@@ -1,0 +1,3053 @@
+- brewery: "Abbeydale"
+  new_brewery: false
+  beer: "Double Deception"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Aromas of elderflower and grapes. Strong citrus flavours, especially grapefruit, and a long lasting bitter finish."
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Abbeydale"
+  new_brewery: false
+  beer: "Splendour"
+  abv: "4.4"
+  bar:
+    - "Main Bar 1"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Abbeydale/Box Social"
+  new_brewery: false
+  beer: "West Coast I.P.A. name tbc"
+  abv: "7.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Sheffield & Newcastle"
+
+- brewery: "AbJngle & BangT'Elephant"
+  new_brewery: false
+  beer: "E.S.B."
+  abv: "5.8"
+  bar:
+    - "Singles Bar"
+  desc: "Nothing known so far"
+  location: "Langley Mill & Nottingham"
+
+- brewery: "Abstract Jungle"
+  new_brewery: false
+  beer: "A Cappella"
+  abv: "5.6"
+  bar:
+    - "Main Bar 1"
+  desc: "Brand new vanilla & blueberry stout "
+  location: "Langley Mill, Derbyshire"
+
+- brewery: "Abstract Jungle"
+  new_brewery: false
+  beer: "Easy American Brown"
+  abv: "4.4"
+  bar:
+    - "Main Bar 1"
+  desc: "Biscuit caramel and chocolate notes with subtle Cascade flavours"
+  location: "Langley Mill, Derbyshire"
+
+- brewery: "Abstract Jungle"
+  new_brewery: false
+  beer: "Pale Pride"
+  abv: "3.9"
+  bar:
+    - "Main Bar 1"
+  desc: "A crisp and clean pale session bitter utilising German and American hops. Low mellow bitterness and a hint of tropical fruit on the aroma."
+  location: "Langley Mill, Derbyshire"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Broadside"
+  abv: "4.7"
+  bar:
+    - "Adnams Bar"
+  desc: "Brewed with Pale Ale malt and First Gold hops, Broadside is a dark ruby red beer rich in fruitcake aromas, almonds and conserved fruit."
+  location: "Southwold, Suffolk"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Dark Side of the Moon"
+  abv: "5.0"
+  bar:
+    - "Adnams Bar"
+  desc: "Stout with marshmallow, coconut, and lactose, aged on oak chips. "
+  location: "Southwold, Suffolk"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Free Wheel"
+  abv: "3.6"
+  bar:
+    - "Adnams Bar"
+  desc: "Straw-coloured English Summer Ale with aromas of citrus and stone fruit, beautifully balanced by a touch of gooseberry on the nish."
+  location: "Southwold, Suffolk"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Ghost Ship"
+  abv: "4.7"
+  bar:
+    - "Adnams Bar"
+  desc: "A ghostly pale ale brewed with Pale Ale, Rye Crystal and Cara malts, Citra and other American hop varieties to create some great citrus flavours."
+  location: "Southwold, Suffolk"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Mosaic Pale"
+  abv: "4.2"
+  bar:
+    - "Adnams Bar"
+  desc: "Mosiac hops at three stages during the boil, and once again during fermentation. This has imparted bold hop characters of peach, mango, lemon and pine. "
+  location: "Southwold, Suffolk"
+
+- brewery: "Adnams"
+  new_brewery: false
+  beer: "Southwold Bitter"
+  abv: "3.7"
+  bar:
+    - "Adnams Bar"
+  desc: "A beautiful copper-coloured beer, late and dry-hopped with Fuggles for a distinctive, lingering hoppiness."
+  location: "Southwold, Suffolk"
+
+- brewery: "Ampersand"
+  new_brewery: false
+  beer: "Takes Two"
+  abv: "4.9"
+  bar:
+    - "Main Bar 1"
+  desc: "Mango infused Wheat Beer."
+  location: "Earsham, Norfolk"
+
+- brewery: "Ampersand"
+  new_brewery: false
+  beer: "Winnow"
+  abv: "5.7"
+  bar:
+    - "Main Bar 1"
+  desc: "Multi hopped Oat I.P.A."
+  location: "Earsham, Norfolk"
+
+- brewery: "Ampersand/Two Stretch"
+  new_brewery: false
+  beer: "Voyage II"
+  abv: "6.2"
+  bar:
+    - "Singles Bar"
+  desc: "Cranberry & Hibiscus infused Brut I.P.A."
+  location: "Earsham, Norfolk"
+
+- brewery: "Atlantic"
+  new_brewery: false
+  beer: "Sea Salt Stout"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Pours dark almost black with cream head. Nose is light roast chocolate taste is salted caramel chocolate cocoa malts"
+  location: "Treisaac, Cornwall"
+
+- brewery: "Aurora"
+  new_brewery: false
+  beer: "Light Show"
+  abv: "3.9"
+  bar:
+    - "Main Bar 1"
+  desc: "A light coloured refreshing pale ale powerfully loaded with Nugget and Cascade hop, brewed with three varieties of malted barley. Flavour punch above its weight."
+  location: "Ilkeston, Derbyshire"
+
+- brewery: "Axholme"
+  new_brewery: false
+  beer: "Cleethorpes Pale"
+  abv: "4.2"
+  bar:
+    - "Main Bar 1"
+  desc: "A refreshing pale ale with crisp citrus hops & a sweet undertone from Sea Buckthorn berries."
+  location: "Crowle, Lincolnshire"
+
+- brewery: "Axholme"
+  new_brewery: false
+  beer: "Dandy Lion King"
+  abv: "3.9"
+  bar:
+    - "Main Bar 1"
+  desc: "Real dandelion & burdock roots give an aniseed twist to the Manderina hops."
+  location: "Crowle, Lincolnshire"
+
+- brewery: "Axholme"
+  new_brewery: false
+  beer: "Dockers Mild"
+  abv: "3.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Rich dark mild, chocolate & fruits balanced by salt from the Humber seaweed."
+  location: "Crowle, Lincolnshire"
+
+- brewery: "Bad Co."
+  new_brewery: false
+  beer: "Oak Aged Dark Necessities"
+  abv: "6.2"
+  bar:
+    - "Singles Bar"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Dishforth, North Yorkshire"
+
+- brewery: "Bad Co."
+  new_brewery: false
+  beer: "Pale Aura"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "A light amber pour gives way to light caramel malt with an uplifting burst of orange marmalade, and with a full creamy mouthfeel"
+  location: "Dishforth, North Yorkshire"
+
+- brewery: "Bad Co/Turning Point"
+  new_brewery: false
+  beer: "Tangled Dimensions"
+  abv: "6.5"
+  bar:
+    - "Singles Bar"
+  desc: "A big juicy IPA hopped with lashings and lashings of Citra and Mosiac hops."
+  location: "Dishforth & Kirkbymoorside"
+
+- brewery: "Bakers Dozen"
+  new_brewery: false
+  beer: "Magic Potion No.18"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Latest outing for the delightful varying hop potions."
+  location: "Ketton, Rutland"
+
+- brewery: "Bakers Dozen"
+  new_brewery: false
+  beer: "Straight Outta Ketton"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "A dry, hoppy, pale ale with fruity aroma - yet another crazy ass brew!"
+  location: "Ketton, Rutland"
+
+- brewery: "Bakers Dozen"
+  new_brewery: false
+  beer: "The Turk"
+  abv: "5.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Chocolate and rose porter"
+  location: "Ketton, Rutland"
+
+- brewery: "Bang the Elephant"
+  new_brewery: true
+  beer: "Benjo Bironga Grapefruit"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Inspired by Brazilian lemonade, it has lots of limes added to the boil and the fermentor, also a fair amount of guava nectar, hopped with mosaic amd amarillo. In collaboration with the Castle Rock brewer"
+  location: "Nottingham "
+
+- brewery: "Bang the Elephant"
+  new_brewery: true
+  beer: "Pocketful of Melons"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Refreshing Melon Pale Ale"
+  location: "Nottingham "
+
+- brewery: "Batemans"
+  new_brewery: false
+  beer: "Dark Fruits Porter"
+  abv: "4.4"
+  bar:
+    - "Main Bar 1"
+  desc: "Rich creamy packed with dark fruits"
+  location: "Wainfleet, Lincs"
+
+- brewery: "Batemans"
+  new_brewery: false
+  beer: "Summer Swallow"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "A crisp, dry, refreshing pale ale, deserving of a proper summer’s day. "
+  location: "Wainfleet, Lincs"
+
+- brewery: "Beccles Brew Co"
+  new_brewery: true
+  beer: "Hodgkin's Hop"
+  abv: "3.7"
+  bar:
+    - "Main Bar 1"
+  desc: "Single malt, bittery pale ale with a very strong citrus flavour. "
+  location: "Beccles, Suffolk "
+
+- brewery: "Beccles Brew Co"
+  new_brewery: true
+  beer: "Leman Drop"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "This is a hazy ale but has little bitterness very lemony with a hint of spiciness to finish. "
+  location: "Beccles, Suffolk "
+
+- brewery: "Beccles Brew Co"
+  new_brewery: true
+  beer: "Nelson Tree"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "An amber beer bitter taste with a slight flowery taste that finishes with a lovely sweet after taste"
+  location: "Beccles, Suffolk "
+
+- brewery: "Beerblefish"
+  new_brewery: false
+  beer: "Brett Midler"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Edmonton, London N18"
+
+- brewery: "Beerblefish"
+  new_brewery: false
+  beer: "Pan Galactic Pale Ale"
+  abv: "5.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Bright, smooth and fruity"
+  location: "Edmonton, London N18"
+
+- brewery: "Bexar County"
+  new_brewery: false
+  beer: "Its half your fault, so half forgive me"
+  abv: "6.3"
+  bar:
+    - "Main Bar 1"
+  desc: "Nothing known so far"
+  location: "Peterborough"
+
+- brewery: "Bexar County"
+  new_brewery: false
+  beer: "Love, in itself"
+  abv: "3.6"
+  bar:
+    - "Main Bar 1"
+  desc: "A fruited oatmeal pale ale where the oats adds full texture, holding up the sweetness of the strawberries."
+  location: "Peterborough"
+
+- brewery: "Bexar County"
+  new_brewery: false
+  beer: "Papa Steve 2019"
+  abv: "9.0"
+  bar:
+    - "Singles Bar"
+  desc: "Imperial Stout using a Belgian Yeast strain to enhance the dark chocolate and stone fruit notes. "
+  location: "Peterborough"
+
+- brewery: "Bexar Cty&Wild Weather"
+  new_brewery: false
+  beer: "Lapsang Souchong & thanks for all the shoes"
+  abv: "5.9"
+  bar:
+    - "Main Bar 1"
+  desc: "A Smoked Tea Stout Lapsang Souchong (smoked tea) is infused with an easy drinking porter to create a yummy drinking experience."
+  location: "Pboro' & Silchester"
+
+- brewery: "Billericay"
+  new_brewery: false
+  beer: "Zeppelin"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Easy drinking session ale with slight smoky notes."
+  location: "Billericay, Essex"
+
+- brewery: "Black Storm"
+  new_brewery: false
+  beer: "Blonde"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Refreshing balance of malt & First Gold hops."
+  location: "Whitley Bay, Tyne & Wear"
+
+- brewery: "Black Storm"
+  new_brewery: false
+  beer: "I.P.A. V5"
+  abv: "5.5"
+  bar:
+    - "Main Bar 1"
+  desc: "A ggod dose of cascade hops give this old type beer a modern twist."
+  location: "Whitley Bay, Tyne & Wear"
+
+- brewery: "Black Storm"
+  new_brewery: false
+  beer: "Porter"
+  abv: "5.2"
+  bar:
+    - "Main Bar 1"
+  desc: "Good chunky robust porter with a rich malt profile from plenty of chocolate and crystal malts."
+  location: "Whitley Bay, Tyne & Wear"
+
+- brewery: "Blackjack"
+  new_brewery: false
+  beer: "Mosaic Light"
+  abv: "3.6"
+  bar:
+    - "Main Bar 1"
+  desc: "Easy drinking single hopped beer."
+  location: "Manchester"
+
+- brewery: "Blackjack"
+  new_brewery: false
+  beer: "Royal Flush"
+  abv: "5.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Five English hop varieties used in this beer."
+  location: "Manchester"
+
+- brewery: "Blackpit"
+  new_brewery: false
+  beer: "Cloud Nine"
+  abv: "3.9"
+  bar:
+    - "Main Bar 1"
+  desc: "Nothing known so far"
+  location: "Stowe, Buckinghamshire"
+
+- brewery: "Blackpit"
+  new_brewery: false
+  beer: "Day Triper"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Nothing known so far"
+  location: "Stowe, Buckinghamshire"
+
+- brewery: "Blimey!"
+  new_brewery: true
+  beer: "First Born I.P.A."
+  abv: "5.2"
+  bar:
+    - "Main Bar 1"
+  desc: "An American-style IPA made with Mosaic, Citra & Simcoe hops. Fruity with citrus and tropical aromas"
+  location: "Norwich, Norfolk "
+
+- brewery: "Blimey!"
+  new_brewery: true
+  beer: "The Paleface DDH APA"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "An American Pale Ale made with Mosaic & Citra hops. Light and hoppy with a refreshing citrus aroma and bitter finish"
+  location: "Norwich, Norfolk "
+
+- brewery: "Blue Bee"
+  new_brewery: false
+  beer: "Tempest Stout"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Roasted coffee & chocolate notes, unfined."
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Blue Bell"
+  new_brewery: false
+  beer: "Burley Chassis"
+  abv: "3.7"
+  bar:
+    - "Main Bar 1"
+  desc: "Traditional session ale finished with flaked maize."
+  location: "Whaplode St Catherine, Lincs."
+
+- brewery: "Blue Bell"
+  new_brewery: false
+  beer: "Ingle Dingle I.P.A."
+  abv: "5.1"
+  bar:
+    - "Main Bar 1"
+  desc: "Good robust stroner beer."
+  location: "Whaplode St Catherine, Lincs."
+
+- brewery: "Blue Monkey"
+  new_brewery: false
+  beer: "B.G. Sips"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "A pale and intensely hoppy beer, the Brewers Gold hops impart enticing tropical fruit aromas and a lovely thirst quenching bitterness."
+  location: "Nottingham, Nottinghamshire"
+
+- brewery: "Boudicca"
+  new_brewery: false
+  beer: "Andraste's Ale"
+  abv: "4.7"
+  bar:
+    - "Main Bar 1"
+  desc: "Dry hopped, pale amber, strong bitter."
+  location: "West Barsham, Norfolk"
+
+- brewery: "Boudicca"
+  new_brewery: false
+  beer: "Prasto's Porter"
+  abv: "5.2"
+  bar:
+    - "Main Bar 1"
+  desc: "Full-bodied porter with dark fruit and hops on the nose, hints of roast malt, and a dry and smoky finish"
+  location: "West Barsham, Norfolk"
+
+- brewery: "Brentwood/ElephantSchool"
+  new_brewery: false
+  beer: "Buzz Light Beer"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "A golden honey beer – to the pub & beyond!"
+  location: "Brentwood, Essex"
+
+- brewery: "Brentwood/ElephantSchool"
+  new_brewery: false
+  beer: "Chockwork Orange"
+  abv: "6.5"
+  bar:
+    - "Singles Bar"
+  desc: "A deep chocolate, malty beer brewed with oranges to give it a background citrus bitterness and matured to create a classic ‘old ale’ style."
+  location: "Brentwood, Essex"
+
+- brewery: "Brew York"
+  new_brewery: false
+  beer: "Barghest"
+  abv: "7.5"
+  bar:
+    - "Singles Bar"
+  desc: "Not a lot of it, get it while you can"
+  location: "York, North Yorkshire"
+
+- brewery: "Brew York"
+  new_brewery: false
+  beer: "Pan Galactic"
+  abv: "4.2"
+  bar:
+    - "Festival Special"
+    - "Main Bar 1"
+  desc: "Lemon Weiss beer with Hercules hops, with 100 lemons & pith plus 5kg of lemongrass in the boil."
+  location: "York, North Yorkshire"
+
+- brewery: "Brew York"
+  new_brewery: false
+  beer: "Superunknown"
+  abv: "4.9"
+  bar:
+    - "Main Bar 1"
+  desc: "American Pale Ale oosing hops."
+  location: "York, North Yorkshire"
+
+- brewery: "Brew York"
+  new_brewery: false
+  beer: "Tonkoko"
+  abv: "4.3"
+  bar:
+    - "Main Bar 1"
+  desc: "Multi award winning coconut,tonka, vanilla & cacao chocolate milk stout."
+  location: "York, North Yorkshire"
+
+- brewery: "Brewshed"
+  new_brewery: false
+  beer: "American Blonde"
+  abv: "5.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Inspired by modern American IPAs and brewed using the distinctive American Citra hops. It has crisp bitterness but is balanced with a rich malt character and a citrus fruit nose."
+  location: "Ingham, Suffolk"
+
+- brewery: "Brewshed"
+  new_brewery: false
+  beer: "Festival Special"
+  abv: "4.3"
+  bar:
+    - "Main Bar 1"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Ingham, Suffolk"
+
+- brewery: "Brewshed"
+  new_brewery: false
+  beer: "The Sours That Be"
+  abv: "4.0"
+  bar:
+    - "Singles Bar"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Ingham, Suffolk"
+
+- brewery: "Brewsters"
+  new_brewery: false
+  beer: "Hopstock"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Brewed to celebrate 40 years of Woodstock."
+  location: "Grantham, Lincolnshire"
+
+- brewery: "Brewsters&Cuckoo Colab"
+  new_brewery: false
+  beer: "Bird of Passage"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "A pale golden Belgian Style IPA brewed with the Cuckoo Collaborative from Nottingham University Brewing School."
+  location: "Grantham&Nottm University"
+
+- brewery: "Briarbank"
+  new_brewery: false
+  beer: "Briar Cobnit"
+  abv: "4.2"
+  bar:
+    - "Main Bar 1"
+  desc: "Brown Ale malt & sweetness with nutty backdrop."
+  location: "Ipswich, Suffolk"
+
+- brewery: "Briarbank"
+  new_brewery: false
+  beer: "Samual Harvey V.C."
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Bright orange beer with sweet hoppy flavours."
+  location: "Ipswich, Suffolk"
+
+- brewery: "Bristol Beer Factory"
+  new_brewery: false
+  beer: "Milk Stout"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "smooth chocolatey sweetness and balancing coffee bitterness with hints of dark fruits. This award winning national champion stout is a beautifully creamy, full-bodied stout."
+  location: "Bristol"
+
+- brewery: "Bristol Beer Factory"
+  new_brewery: false
+  beer: "Notorious"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Columbus, Chinook, Cascade and Centennial combine to make a legend of a pint: citrus, sherbet, black pepper, floral, tropical and piney flavours make this an epic pour. "
+  location: "Bristol"
+
+- brewery: "Brown Cow"
+  new_brewery: false
+  beer: "Mrs. Simpson's Thriller in Vanilla"
+  abv: "5.1"
+  bar:
+    - "Main Bar 1"
+  desc: "Nothing known so far"
+  location: "Barlow, North Yorkshire"
+
+- brewery: "Bumbling @ Xtreme"
+  new_brewery: false
+  beer: "Disaster Area"
+  abv: "5.0"
+  bar:
+    - "Singles Bar"
+  desc: "A rich, dark, crème brulée-inspired milk stout with added oatmeal, named after the loudest rock band in the galaxy"
+  location: "Peterborough"
+
+- brewery: "Bumbling @ Xtreme"
+  new_brewery: false
+  beer: "Hoopy Frood"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "A very pale beer with oodles of Galaxy hops and pilsner malt - this is really amazingly together beer, for the drinker who always know where their towel is."
+  location: "Peterborough"
+
+- brewery: "Canopy"
+  new_brewery: false
+  beer: "Mandarin & Bergamot I.P.A."
+  abv: "5.0"
+  bar:
+    - "Main Bar 1"
+  desc: "New beer from this brewery."
+  location: "Herne Hill, London SE24"
+
+- brewery: "Canopy"
+  new_brewery: false
+  beer: "Sunray Pale"
+  abv: "4.2"
+  bar:
+    - "Main Bar 1"
+  desc: "Fruity Belgian yeast and hops from around the world produce a well-balanced, hop-forward beer."
+  location: "Herne Hill, London SE24"
+
+- brewery: "Castle Rock"
+  new_brewery: false
+  beer: "Harvest Pale"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Blonde in colour and brewed with Cascade, Centennial and Chinook hops giving a subtle citrus character with refreshing bitterness. Supreme Champion Beer of Britain 2010"
+  location: "Nottingham"
+
+- brewery: "Castle Rock"
+  new_brewery: false
+  beer: "Waiting for the Sun"
+  abv: "4.7"
+  bar:
+    - "Main Bar 1"
+  desc: "West Coast style IPA. Hoppy and refreshing "
+  location: "Nottingham"
+
+- brewery: "Castor"
+  new_brewery: false
+  beer: "Giant Hops'………………….."
+  abv: "4.8"
+  bar:
+    - "Festival Special"
+    - "Main Bar 1"
+  desc: "Full name for the beer is \"Giant Hops are What you Take Walking on the Moon\"."
+  location: "Castor, Cambs."
+
+- brewery: "Castor"
+  new_brewery: false
+  beer: "Gingerly Walking on the Moon"
+  abv: "4.8"
+  bar:
+    - "Festival Special"
+    - "Singles Bar"
+  desc: "Infused with ginger root, to give this amber coloured offering a spicy kick. "
+  location: "Castor, Cambs."
+
+- brewery: "Castor"
+  new_brewery: false
+  beer: "Hopping Toad"
+  abv: "4.1"
+  bar:
+    - "Main Bar 1"
+  desc: "A refreshing bitter brewed with light malt, balanced with hops giving a flowery and spicy, citrus-like quality with a slight grapefruit characteristic. The signature beer from Castor Ales, a popular beer locally. "
+  location: "Castor, Cambs."
+
+- brewery: "Castor"
+  new_brewery: false
+  beer: "Major Toms Space Oppity"
+  abv: "4.1"
+  bar:
+    - "Singles Bar"
+  desc: "A light ale infused with bog myrtle and liquorice root to give an interesting twist and flavoursome taste. "
+  location: "Castor, Cambs."
+
+- brewery: "Castor"
+  new_brewery: false
+  beer: "Old Scarlett"
+  abv: "4.3"
+  bar:
+    - "Main Bar 1"
+  desc: "A scarlet coloured bitter infused with West Coast hops, very easy on the palate. A modern twist on a traditional beer"
+  location: "Castor, Cambs."
+
+- brewery: "Cheddar"
+  new_brewery: false
+  beer: "Totty Pot"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Dark Porter with hints of roasted coffee and a creamy malt finish."
+  location: "Cheddar, Somerset"
+
+- brewery: "Cornish Crown"
+  new_brewery: false
+  beer: "Red I.P.A."
+  abv: "5.9"
+  bar:
+    - "Main Bar 1"
+  desc: "Amber IPA with a hint of chestnut and red. High on bitterness with a dark nutty taste."
+  location: "Gulval, Cornwall"
+
+- brewery: "Crafty Little"
+  new_brewery: false
+  beer: "Munich Helles"
+  abv: "4.4"
+  bar:
+    - "Main Bar 1"
+  desc: "Cask Lager."
+  location: "Brough, Lincolnshire"
+
+- brewery: "Crafty Little"
+  new_brewery: false
+  beer: "Wolf Bite"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "American Pale Ale."
+  location: "Brough, Lincolnshire"
+
+- brewery: "Creaton Grange"
+  new_brewery: false
+  beer: "Four Sons"
+  abv: "3.5"
+  bar:
+    - "Main Bar 1"
+  desc: "Light roasted notes with hints of spice."
+  location: "Creaton, Northants."
+
+- brewery: "Creaton Grange"
+  new_brewery: false
+  beer: "March Yard"
+  abv: "4.2"
+  bar:
+    - "Main Bar 1"
+  desc: "A bright summer ale."
+  location: "Creaton, Northants."
+
+- brewery: "Crooked"
+  new_brewery: false
+  beer: "Macropus Rufus"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "A refreshing and welcome sight amidst the parched dry scrub. \"Rufus\", this hoppy red ale (geddit), will have you jumping for joy. "
+  location: "Church Fenton, North Yorks."
+
+- brewery: "Crooked"
+  new_brewery: false
+  beer: "Spokes"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Northern brewer bitterness and a subtle blend of orange and grapefruit Cascade and Amarillo leaf hops complete the circle. Take it for a spin."
+  location: "Church Fenton, North Yorks."
+
+- brewery: "Dark Star"
+  new_brewery: false
+  beer: "Hophead"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Nothing known so far"
+  location: "Partridge Green, West Sussex"
+
+- brewery: "Digfield"
+  new_brewery: false
+  beer: "Chiff Chaff"
+  abv: "3.9"
+  bar:
+    - "Main Bar 1"
+  desc: "A clean, crisp amber-gold pale ale with a distinct hoppy aroma"
+  location: "Lilford, Northants."
+
+- brewery: "Digfield"
+  new_brewery: false
+  beer: "Fool's Nook"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Golden Summer bitter well hopped with a refreshing citrus aftertaste."
+  location: "Lilford, Northants."
+
+- brewery: "Digfield"
+  new_brewery: false
+  beer: "Mad Monk"
+  abv: "4.8"
+  bar:
+    - "Main Bar 1"
+  desc: "Deliciously full-bodied and slightly darker, this strong ale has hints of malt and chocolate in the finish"
+  location: "Lilford, Northants."
+
+- brewery: "Docks"
+  new_brewery: true
+  beer: "Hard Graft"
+  abv: "4.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Session pale ale. A punchy, piney taste is underpinned by barley and rye malt with bold flavours from Citra, Simcoe and Sorachi Ace hops. "
+  location: "Grimsby, Lincolnshire "
+
+- brewery: "Docks"
+  new_brewery: true
+  beer: "Never Say Die"
+  abv: "6.0"
+  bar:
+    - "Main Bar 1"
+  desc: "New World IPA brewed for when things get tough. The tropical and citrus kick from Magnum, Chinook and Mosaic hops is a reminder that surrender isn\"t an option."
+  location: "Grimsby, Lincolnshire "
+
+- brewery: "Drygate"
+  new_brewery: false
+  beer: "Seven Peaks I.P.A."
+  abv: "5.0"
+  bar:
+    - "Main Bar 1"
+  desc: "Our flagship IPA: A riotous, uncompromising, and bold cacophony of Mosaic hop aromatics on a crisp malt backbone."
+  location: "Glasgow"
+
+- brewery: "Dunham Massey"
+  new_brewery: false
+  beer: "Chocolate Cherry Mild"
+  abv: "3.8"
+  bar:
+    - "Main Bar 1"
+  desc: "A speciality mild, with a dry hint of cherry that cuts through the malt flavours"
+  location: "Dunham Massey, Cheshire"
+
+- brewery: "Dunham Massey"
+  new_brewery: false
+  beer: "Dunham Porter"
+  abv: "5.2"
+  bar:
+    - "Main Bar 1"
+  desc: "Champion Winter Beer of Britain 2014. Classic old style English porter. Dark, creamy and full bodied"
+  location: "Dunham Massey, Cheshire"
+
+- brewery: "East London"
+  new_brewery: false
+  beer: "Dragon"
+  abv: "4.1"
+  bar:
+    - "Main Bar 1"
+  desc: " A mostly clear golden coloured pour with a loose white head. Aroma is pale bready malts, white grape and orange rind."
+  location: "Leyton, London E10"
+
+- brewery: "East London"
+  new_brewery: false
+  beer: "Quadrupped Black A.P.A."
+  abv: "5.3"
+  bar:
+    - "Singles Bar"
+  desc: "Black IPA, best aromatic hops and darkest malts create a deliciously flavoursome Friesian beast."
+  location: "Leyton, London E10"
+
+- brewery: "Elgood's"
+  new_brewery: false
+  beer: "Black Dog"
+  abv: "3.6"
+  bar:
+    - "Main Bar 1"
+  desc: "A traditional dark mild at 3.6% abv. It has many CAMRA awards to its name and is a well known brand in the free trade. The beer is well balanced with a full roast flavour."
+  location: "Wisbech, Cambridgeshire"
+
+- brewery: "Elgood's"
+  new_brewery: false
+  beer: "Geese!"
+  abv: "4.2"
+  bar:
+    - "Main Bar 1"
+  desc: "American Pale Ale. Great for those warm summer evenings."
+  location: "Wisbech, Cambridgeshire"
+
+- brewery: "Elgood's"
+  new_brewery: false
+  beer: "Plum Porter"
+  abv: "4.5"
+  bar:
+    - "Main Bar 1"
+  desc: "This distinctive black beer has an enticing fruit aroma, leading to a full-bodied, rich and fruity flavour and resulting in a dry, deep, satisfying finish."
+  location: "Wisbech, Cambridgeshire"
+
+- brewery: "Elland"
+  new_brewery: false
+  beer: "Belgian Wit"
+  abv: "4.0"
+  bar:
+    - "Main Bar 2"
+  desc: "A cloudy witbier brewed with Slovenian Dragon hops for a crisp and refreshing super sessionable light ale."
+  location: "Elland, West Yorkshire"
+
+- brewery: "Exmoor"
+  new_brewery: false
+  beer: "Gold"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "The original \"single malt\" traditional ale - pale gold in colour with a malty aroma and flavour. A light sweetness is complemented by its long hoppiness resulting in a remarkable well-rounded beer."
+  location: "Wiveliscombe, Somerset"
+
+- brewery: "Fallen Oak"
+  new_brewery: false
+  beer: "Crimea River"
+  abv: "9.0"
+  bar:
+    - "Singles Bar"
+  desc: "Powerful Russian Imperial Stout."
+  location: "Gosport, Hampshire"
+
+- brewery: "Fallen Oak"
+  new_brewery: false
+  beer: "Hole Hearted"
+  abv: "4.7"
+  bar:
+    - "Main Bar 2"
+  desc: "A five time winner of Hampshire Beer of the Year. Floral, fruity and delicately bitter. Cascade hops give this beer powerful floral and tropical fruit flavours."
+  location: "Gosport, Hampshire"
+
+- brewery: "Fallen Oak"
+  new_brewery: false
+  beer: "Strawberry Fields"
+  abv: "4.4"
+  bar:
+    - "Main Bar 2"
+  desc: "Brewed for D-Day 75 with strawberry aroma hops, 5p per pint sold to Walking Wounded charity."
+  location: "Gosport, Hampshire"
+
+- brewery: "Fat Cat"
+  new_brewery: false
+  beer: "Boys En the Hood Stout"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Norwich, Norfolk"
+
+- brewery: "Fat Cat"
+  new_brewery: false
+  beer: "Tom Cat"
+  abv: "4.1"
+  bar:
+    - "Main Bar 2"
+  desc: "Crisp dry session ale with a hint of fruitiness. "
+  location: "Norwich, Norfolk"
+
+- brewery: "Flathead"
+  new_brewery: true
+  beer: "Drinking from the Bottle"
+  abv: "5.4"
+  bar:
+    - "Main Bar 2"
+  desc: "I.P.A. style beer."
+  location: "Mexborough, South Yorks. "
+
+- brewery: "Flathead"
+  new_brewery: true
+  beer: "Orate Youth"
+  abv: "4.3"
+  bar:
+    - "Main Bar 2"
+  desc: "Cuckoo brewery at Imperial, a new pale beer."
+  location: "Mexborough, South Yorks. "
+
+- brewery: "Flipside"
+  new_brewery: false
+  beer: "Kopek Stout"
+  abv: "4.4"
+  bar:
+    - "Main Bar 2"
+  desc: "Wholesome stout with strong chocolate & malt flavours"
+  location: "Caythorpe, Nottinghamshire"
+
+- brewery: "Fyne Ales"
+  new_brewery: false
+  beer: "Everyone Loves Chinook"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Single hopped beer."
+  location: "Cairndow, Argyll"
+
+- brewery: "Fyne Ales"
+  new_brewery: false
+  beer: "Jarl"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "A full-on citrus experience. Light and golden, a perfect ale for whiling away the hours on a sunny day."
+  location: "Cairndow, Argyll"
+
+- brewery: "Georges/Hopmonster"
+  new_brewery: false
+  beer: "Walasea Wench"
+  abv: "3.6"
+  bar:
+    - "Main Bar 2"
+  desc: "Pale copper, lightly hopped, smooth easy drinking session beer. The name started as a joke from Hilary Hunter, manager of Wallasea’s Wild Coast project and the name and the beer stuck. Cheers Hilary!"
+  location: "Great Wakerling, Essex"
+
+- brewery: "Gibberish"
+  new_brewery: false
+  beer: "Apricot I.P.A. TBC"
+  abv: "?.?"
+  bar:
+    - "Main Bar 2"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Liverpool"
+
+- brewery: "Gibberish"
+  new_brewery: false
+  beer: "Brazil Nut Stout TBC"
+  abv: "?.?"
+  bar:
+    - "Main Bar 2"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Liverpool"
+
+- brewery: "Golden Triangle"
+  new_brewery: false
+  beer: "Elderflowerpower"
+  abv: "4.2"
+  bar:
+    - "Main Bar 2"
+  desc: "Refreshing summer beer."
+  location: "Norwich, Norfolk"
+
+- brewery: "Golden Triangle"
+  new_brewery: false
+  beer: "Mosaic City"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Multi award winning beer for hopheads."
+  location: "Norwich, Norfolk"
+
+- brewery: "Golden Triangle"
+  new_brewery: false
+  beer: "Mosaic City Twister"
+  abv: "3.8"
+  bar:
+    - "Festival Special"
+    - "Singles Bar"
+  desc: "Festival twist on this beer."
+  location: "Norwich, Norfolk"
+
+- brewery: "Gorgeous"
+  new_brewery: false
+  beer: "Greedyguts Golden Ale"
+  abv: "3.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Light bodied , vibrant hops. Tropical pine and citrus flavours."
+  location: "Highgate, London N7"
+
+- brewery: "Gorgeous"
+  new_brewery: false
+  beer: "Gunpowder"
+  abv: "4.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Strong malt base with distinctive marmalade character. Lingering hoppy finish."
+  location: "Highgate, London N7"
+
+- brewery: "Grain"
+  new_brewery: false
+  beer: "ThreeOneSix"
+  abv: "3.9"
+  bar:
+    - "Main Bar 2"
+  desc: "Extra pale, dry, with a grapefruit hop aroma"
+  location: "Alburgh, Norfolk"
+
+- brewery: "Grain"
+  new_brewery: false
+  beer: "Weizen"
+  abv: "5.0"
+  bar:
+    - "Main Bar 2"
+  desc: "Slightly hazy yellow with a creamy white head. Aroma of wheat, yeast, a little banana and light citrus. Flavour is light sweet, light bitter, wheat, yeast, fruity. "
+  location: "Alburgh, Norfolk"
+
+- brewery: "Grain/Old Chimneys"
+  new_brewery: false
+  beer: "Vienna Red"
+  abv: "7.1"
+  bar:
+    - "Singles Bar"
+  desc: "Exploring the flavours that Vienna Malt and Crystal can impart in a beer. With very little hop addition, this beer is full and rich in aroma, flavour and body, with smooth flavours of roasted malts and caramel."
+  location: "Alburgh, Norfolk"
+
+- brewery: "Grainstore"
+  new_brewery: false
+  beer: "Beesting"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "A light golden honey brew, exhibiting a mellow sweetness, finely balanced against a subtle floral/honey aroma and flavour. "
+  location: "Oakham, Rutland"
+
+- brewery: "Grainstore"
+  new_brewery: false
+  beer: "Gold"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "A refreshing, light golden brew, whose flavour is a complex blend of mellow malt sweetness finely balanced against a subtle floral aroma and smooth bitterness."
+  location: "Oakham, Rutland"
+
+- brewery: "Great Heck"
+  new_brewery: false
+  beer: "Apocolypse Brau"
+  abv: "6.1"
+  bar:
+    - "Main Bar 2"
+  desc: "Strong dark ale made from a blend of Yakima IPA and Patrick Irish Stout."
+  location: "Great Heck, South Yorkshire"
+
+- brewery: "Great Heck"
+  new_brewery: false
+  beer: "Treasure I.P.A."
+  abv: "4.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Golden, luscious, fruity"
+  location: "Great Heck, South Yorkshire"
+
+- brewery: "Green Jack"
+  new_brewery: false
+  beer: "L.G.M.1."
+  abv: "4.2"
+  bar:
+    - "Main Bar 2"
+  desc: "Little Green Man 1, a new hoppy pale beer."
+  location: "Lowestoft, Suffolk"
+
+- brewery: "Green Jack"
+  new_brewery: false
+  beer: "Ripper"
+  abv: "8.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Strong, sweet and fruity with a warming finish"
+  location: "Lowestoft, Suffolk"
+
+- brewery: "Green Jack"
+  new_brewery: false
+  beer: "Trawlerboys"
+  abv: "4.6"
+  bar:
+    - "Main Bar 2"
+  desc: "Full-bodied and a dark copper-coloured premium bitter with chocolate, fruit, malt and hop flavours. Silver at GBBF 2019"
+  location: "Lowestoft, Suffolk"
+
+- brewery: "Hadrian Border"
+  new_brewery: false
+  beer: "Northern Pale"
+  abv: "4.1"
+  bar:
+    - "Main Bar 2"
+  desc: "A crisp, light pale using Amarillo hops to deliver mellow citrus and grapefruit tones in aroma and on the palate, with a pleasant lingering bitterness on the way down."
+  location: "Newcastle upon Tyne"
+
+- brewery: "Hadrian Border"
+  new_brewery: false
+  beer: "Secret Kingdom"
+  abv: "4.3"
+  bar:
+    - "Main Bar 2"
+  desc: "Dark, rich and full-bodied slightly roasted with a malty palate ending with a pleasant bitterness."
+  location: "Newcastle upon Tyne"
+
+- brewery: "Hanlon's"
+  new_brewery: false
+  beer: "Stormstay"
+  abv: "5.0"
+  bar:
+    - "Main Bar 2"
+  desc: "Dark amber to copper in colour with a toffee and floral hop nose and hints of tangerine. Malt caramel and biscuit nestle with the two aroma hops, Bobeck and Cascade. "
+  location: "Newton St. Cyres, Devon"
+
+- brewery: "Harviestoun"
+  new_brewery: false
+  beer: "Scheihallion"
+  abv: "4.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Brewed with lager malt and Hersbrücker and Challenger hops. Fermented with a lager yeast, but treated in every other way as a cask ale, with a week or two of cool conditioning prior to release. "
+  location: "Alva, Central"
+
+- brewery: "Harviestoun"
+  new_brewery: false
+  beer: "Wheat Beastie"
+  abv: "4.3"
+  bar:
+    - "Main Bar 2"
+  desc: "Wheat beer infused with lemon verbena leaves and coriander."
+  location: "Alva, Central"
+
+- brewery: "Henry Smith"
+  new_brewery: true
+  beer: "Dark Mild"
+  abv: "4.0"
+  bar:
+    - "Main Bar 2"
+  desc: "Traditional dark mild made with local ingredients, malt from Fawcett’s of Castleford, English hops and , of course, Henry Smith signature oats in the mash for body."
+  location: "Pontefract, West Yorkshire "
+
+- brewery: "Hopshackle"
+  new_brewery: false
+  beer: "American Pale"
+  abv: "4.3"
+  bar:
+    - "Main Bar 2"
+  desc: "An amber coloured ale. The taste is citrus hop with gooseberry and lychees with a dry bitter finish"
+  location: "Market Deeping, Lincs."
+
+- brewery: "Hopshackle"
+  new_brewery: false
+  beer: "Barrel Aged Hibernator"
+  abv: "5.8"
+  bar:
+    - "Singles Bar"
+  desc: "A strong dark old ale which is conditioned for 6 weeks before release. It is black in colour with a tan head and a malty-chocolate aroma. The taste is vinous fruit, malt and bitter chocolate."
+  location: "Market Deeping, Lincs."
+
+- brewery: "Hopshackle"
+  new_brewery: false
+  beer: "Firebelly"
+  abv: "5.2"
+  bar:
+    - "Main Bar 2"
+  desc: "A Double Imperial IPA, amber in colour, loaded with hop oils and resins with a malty background."
+  location: "Market Deeping, Lincs."
+
+- brewery: "Hopshackle"
+  new_brewery: false
+  beer: "Vespa"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Refreshing hoppy English pale ale."
+  location: "Market Deeping, Lincs."
+
+- brewery: "Horbury"
+  new_brewery: false
+  beer: "First Light"
+  abv: "4.1"
+  bar:
+    - "Main Bar 2"
+  desc: "New Zealand cascade single hop beer."
+  location: "Ossett, West Yorkshire"
+
+- brewery: "Horncastle"
+  new_brewery: false
+  beer: "Dragon's Flame"
+  abv: "4.3"
+  bar:
+    - "Main Bar 2"
+  desc: "Light chestnut hints of vanilla & spice."
+  location: "Horncastle, Lincolnshire"
+
+- brewery: "Horncastle"
+  new_brewery: false
+  beer: "Pale Rider"
+  abv: "4.1"
+  bar:
+    - "Main Bar 2"
+  desc: "Blonde fruity number."
+  location: "Horncastle, Lincolnshire"
+
+- brewery: "Howling Hops"
+  new_brewery: false
+  beer: "House I.P.A."
+  abv: "6.9"
+  bar:
+    - "Singles Bar"
+  desc: "Straight up full on hop led IPA."
+  location: "Hackney Wick, London E9"
+
+- brewery: "Howling Hops"
+  new_brewery: false
+  beer: "Tropical Deluxe"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Pleasant Session Pale Ale"
+  location: "Hackney Wick, London E9"
+
+- brewery: "Ilkley"
+  new_brewery: false
+  beer: "Pale"
+  abv: "4.2"
+  bar:
+    - "Main Bar 2"
+  desc: "A dry crisp pale ale strongly hopped with wonderfully floral Nelson Sauvin hops to give a strong but mellow citrus finish."
+  location: "Ilkley, West Yorks"
+
+- brewery: "Imperial"
+  new_brewery: false
+  beer: "Classical Bitter"
+  abv: "3.9"
+  bar:
+    - "Main Bar 2"
+  desc: "An amber beer with a dark beige head, Nice bitterness. Easy drinking"
+  location: "Mexborough, South Yorks."
+
+- brewery: "Imperial"
+  new_brewery: false
+  beer: "The Platinum Blonde"
+  abv: "4.0"
+  bar:
+    - "Main Bar 2"
+  desc: "Blonde ale using low colour Maris Otter, oats and wheat malt with a combination of American hops for a tropical and grapefruit burst with a smooth bitterness. "
+  location: "Mexborough, South Yorks."
+
+- brewery: "Iron Pier"
+  new_brewery: false
+  beer: "Joined at the Hop"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "A Session Pale made with Bullion and Dana hops. Distinct lemon and herbal flavour with hints of pine, dark fruit and spice undertones!"
+  location: "Gravesend, Kent"
+
+- brewery: "Iron Pier"
+  new_brewery: false
+  beer: "White Out"
+  abv: "5.3"
+  bar:
+    - "Main Bar 2"
+  desc: "Tropical Wheat IPA with Citra and Galaxy hops"
+  location: "Gravesend, Kent"
+
+- brewery: "Isaac Poad"
+  new_brewery: false
+  beer: "Piccadilly Porter"
+  abv: "4.8"
+  bar:
+    - "Main Bar 2"
+  desc: "A dark brown bitter beer with big hop notes."
+  location: "Cattal, North Yorkshire"
+
+- brewery: "Isle of Skye"
+  new_brewery: false
+  beer: "Black"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Deep ruby lots of roast barley balanced by heather honey."
+  location: "Uig, Skye"
+
+- brewery: "Kelham Island"
+  new_brewery: false
+  beer: "Pale Rider"
+  abv: "5.2"
+  bar:
+    - "Main Bar 2"
+  desc: "Fruit Wheat Beer"
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Kelham Island"
+  new_brewery: false
+  beer: "White Rider Cherry"
+  abv: "4.8"
+  bar:
+    - "Main Bar 2"
+  desc: "An American style wheat beer with the addition of the dark cherry it has a smooth mouthfeel and is tangy with a sweet aroma and a sumptuous head."
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Keppells"
+  new_brewery: false
+  beer: "Crows by the Crouch"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "An amber ale which is great with any food. light but not heavy on the palet."
+  location: "Rochford, Essex"
+
+- brewery: "King's Cliffe"
+  new_brewery: false
+  beer: "5C"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "A perfectly hopped golden session ale. A great summer beer."
+  location: "King's Cliffe, Northants."
+
+- brewery: "King's Cliffe"
+  new_brewery: false
+  beer: "B5"
+  abv: "4.6"
+  bar:
+    - "Main Bar 2"
+  desc: "A light golden punchy ale with added zest from the addition of lemon peel."
+  location: "King's Cliffe, Northants."
+
+- brewery: "King's Cliffe"
+  new_brewery: false
+  beer: "P51"
+  abv: "5.1"
+  bar:
+    - "Main Bar 2"
+  desc: "A porter brewed with six different malts giving a distinctive dark chocolate finish. Awarded second overall champion at Northampton beer festival 2019 ."
+  location: "King's Cliffe, Northants."
+
+- brewery: "Lacons"
+  new_brewery: false
+  beer: "Audit Ale"
+  abv: "8.0"
+  bar:
+    - "Main Bar 2"
+  desc: "CAMRA Champion Winter Beer of Britain."
+  location: "Great Yarmouth, Norfolk"
+
+- brewery: "Lacons"
+  new_brewery: false
+  beer: "Encore"
+  abv: "3.8"
+  bar:
+    - "Main Bar 2"
+  desc: "Award-winning amber ale packing a smooth citrus punch whilst balancing a dry pine and zesty flavour throughout. The finish is robust with a long bitterness."
+  location: "Great Yarmouth, Norfolk"
+
+- brewery: "Lacons"
+  new_brewery: false
+  beer: "Old Nogg"
+  abv: "6.0"
+  bar:
+    - "Singles Bar"
+  desc: "CAMRA Champion Strong Ale of Norfolk 2019."
+  location: "Great Yarmouth, Norfolk"
+
+- brewery: "Lacons"
+  new_brewery: false
+  beer: "Stoop"
+  abv: "4.2"
+  bar:
+    - "Festival Special"
+    - "Main Bar 2"
+  desc: "Big bold fruity aromas from the new Idaho 7 hop."
+  location: "Great Yarmouth, Norfolk"
+
+- brewery: "Lazy Bay"
+  new_brewery: true
+  beer: "Lawnmower I.P.A."
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Nottingham "
+
+- brewery: "Lazy Bay"
+  new_brewery: true
+  beer: "Vic Secret, Huell Melon"
+  abv: "4.4"
+  bar:
+    - "Main Bar 2"
+  desc: "Brewed with the Aussie beaut Vic Secret and backed up with the new hop on the block, the Germanic Huell Melon. Expect tropical notes with melon undertones."
+  location: "Nottingham "
+
+- brewery: "Leeds"
+  new_brewery: false
+  beer: "Calypso"
+  abv: "3.6"
+  bar:
+    - "Main Bar 2"
+  desc: "A tropical, fruity summer ale. "
+  location: "Leeds, West Yorkshire"
+
+- brewery: "Leigh on Sea"
+  new_brewery: false
+  beer: "Brhubarb"
+  abv: "3.9"
+  bar:
+    - "Main Bar 2"
+  desc: "Zingy summer saison produced with fresh, natural rhubarb juice."
+  location: "Leigh on Sea, Essex"
+
+- brewery: "Leigh on Sea"
+  new_brewery: false
+  beer: "Cockle Row Spit"
+  abv: "5.6"
+  bar:
+    - "Main Bar 2"
+  desc: "Full flavoured US Style IPA packed with Czech and US hops."
+  location: "Leigh on Sea, Essex"
+
+- brewery: "Leigh on Sea"
+  new_brewery: false
+  beer: "Crowstone"
+  abv: "5.5"
+  bar:
+    - "Main Bar 2"
+  desc: "Festival Champion Beer at PBF in 2018. A rich blend of 7 malts and 4 notorious American hops go to make this bold Black IPA."
+  location: "Leigh on Sea, Essex"
+
+- brewery: "Little Eaton"
+  new_brewery: true
+  beer: "Gangway Gold"
+  abv: "4.5"
+  bar:
+    - "Main Bar 2"
+  desc: "New Brewery offering."
+  location: "Little Eaton, Derbyshire "
+
+- brewery: "Liverpool Brewing"
+  new_brewery: false
+  beer: "24 Carat Gold"
+  abv: "4.1"
+  bar:
+    - "Main Bar 2"
+  desc: "Generously hopped with a bitterness that builds steadily towards a lingering finish with spicey orangey notes."
+  location: "Liverpool"
+
+- brewery: "Liverpool Brewing"
+  new_brewery: false
+  beer: "Liverpool Pale"
+  abv: "4.0"
+  bar:
+    - "Main Bar 2"
+  desc: "Blonde beer that’s dry hopped giving sharpe, dry, floral notes."
+  location: "Liverpool"
+
+- brewery: "Magic Rock"
+  new_brewery: false
+  beer: "Dark Arts"
+  abv: "5.4"
+  bar:
+    - "Main Bar 2"
+  desc: "A luxuriously smooth mouthfeel, is followed by spicy hop notes and full flavours of chocolate, liquorice, blackberries and figs; will convert you to the dark side."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Magic Rock"
+  new_brewery: false
+  beer: "Ringmaster"
+  abv: "3.9"
+  bar:
+    - "Main Bar 2"
+  desc: "Flag ship pale ale that you’ll want to drink every day. Pale in colour but unlike other pale ales lacking nothing in the flavour stakes."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Magpie"
+  new_brewery: false
+  beer: "Catch the Rain"
+  abv: "4.9"
+  bar:
+    - "Main Bar 2"
+  desc: "Organic NZ Cascade and organic British Cascade give this golden ale a orangey citrus flavour. "
+  location: "Nottingham"
+
+- brewery: "Magpie"
+  new_brewery: false
+  beer: "Cherry Raven"
+  abv: "4.4"
+  bar:
+    - "Main Bar 2"
+  desc: "Natural dark cherry fruit flavour added to our rich smokey stout, packed full of roasted malt flavour with added sweet fruity dark cherry creamy flavour."
+  location: "Nottingham"
+
+- brewery: "Mallinson's"
+  new_brewery: false
+  beer: "Nelson Sauvin XL"
+  abv: "5.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Stronger version of the single hop beer."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Mallinson's"
+  new_brewery: false
+  beer: "Strange Attraction"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Brand new fruity beer."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Mauldons"
+  new_brewery: false
+  beer: "Black Adder"
+  abv: "5.3"
+  bar:
+    - "Main Bar 3"
+  desc: "A dark bitter stout. Roast and nut aromas with a fruity balance of hops and dark malt provide an excellent, lingering finish. CAMRA Supreme Champion 1991."
+  location: "Sudbury, Suffolk"
+
+- brewery: "Mauldons"
+  new_brewery: false
+  beer: "Micawber's Mild"
+  abv: "3.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A dark mild brewed with pale, roasted barley and crystal malts and 100% Amarillo hops. This traditional beer has a full round flavour with a slight but distinctive bitter finish."
+  location: "Sudbury, Suffolk"
+
+- brewery: "Melwood"
+  new_brewery: false
+  beer: "Help on the Way"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Nothing known so far"
+  location: "Prescott, Merseyside"
+
+- brewery: "Melwood"
+  new_brewery: false
+  beer: "Skip the Pollo"
+  abv: "5.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Nothing known so far"
+  location: "Prescott, Merseyside"
+
+- brewery: "Mile Tree"
+  new_brewery: false
+  beer: "Blackberry Porter"
+  abv: "5.6"
+  bar:
+    - "Festival Special"
+    - "Main Bar 3"
+  desc: "Full-bodied dark porter matured on oak chips and with a hint of blackberry fruits."
+  location: "Peterborough"
+
+- brewery: "Mile Tree"
+  new_brewery: false
+  beer: "Citra Blonde"
+  abv: "3.7"
+  bar:
+    - "Main Bar 3"
+  desc: "Refreshing golden blonde ale with hints of apricot and melon flavours."
+  location: "Peterborough"
+
+- brewery: "Mile Tree"
+  new_brewery: false
+  beer: "Little Finger"
+  abv: "3.8"
+  bar:
+    - "Festival Special"
+    - "Main Bar 3"
+  desc: "Copper coloured bitter, with Rye and Vienna malts providing a slightly toasty body."
+  location: "Peterborough"
+
+- brewery: "Mile Tree"
+  new_brewery: false
+  beer: "Wildwood"
+  abv: "4.9"
+  bar:
+    - "Main Bar 3"
+  desc: "Dark brown spiced ale with an intense fruity malt flavour that is enhanced by the late addition of black peppercorns in the copper."
+  location: "Peterborough"
+
+- brewery: "Neepsend"
+  new_brewery: false
+  beer: "Malaga"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Rum & Raisin Porter"
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Neepsend"
+  new_brewery: false
+  beer: "Mosaic I.P.A."
+  abv: "5.5"
+  bar:
+    - "Main Bar 3"
+  desc: "English I.P.A. strength with U.S. hop addition."
+  location: "Sheffield, South Yorkshire"
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Big Bang Theory"
+  abv: "5.3"
+  bar:
+    - "Nene Valley Bar"
+  desc: "Wonderfully balance pale ale. Huge hop aroma giving way to malty sweetness and a gentle bitter finish. Showcasing Ekuanot, Magnum, Mosaic and Citra hops. Gluton free - Vegan"
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Brut I.P.A."
+  abv: "5.0"
+  bar:
+    - "Nene Valley Bar"
+  desc: "Extra Brut India Pale Ale. Brewed to be dry, crisp and refreshing with a low bitterness and a pronounced piney/citrusy character. Gluten free, Vegan."
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Double Big Bang Theory"
+  abv: "7.0"
+  bar:
+    - "Nene Valley Bar"
+  desc: "Ramped up version of our favourite beer. Loads more Ekuanot, Mosaic, Citra and Magnum with a stronger base. Brewed with our friends from The Artichoke, Norwich. Gluten free - Vegan."
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Egyptian Cream"
+  abv: "4.5"
+  bar:
+    - "Nene Valley Bar"
+  desc: "Velvety mouthfeel and full bodied richness created by a large variety of dark malts, flaked oats and lactose. A fruity hop bite brings balance to this creamy milk stout. Gluten free."
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Have Your Cake & Drink It"
+  abv: "6.5"
+  bar:
+    - "Nene Valley Bar"
+  desc: "A smooth and rich stout, with the addition of cocoa nibs for a deep, complex chocolate flavour and oats for a full mouth feel. An initial sweetness leads to a dark chocolate bitter finish. Chocolate cake in a glass!!! Gluten free - Vegan"
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Manhatten Project"
+  abv: "4.0"
+  bar:
+    - "Nene Valley Bar"
+  desc: "A light and refreshing beer with lots of citrus and tropical flavours from the Mandarina, Citra and Eureka hops. Gluten free"
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Nene Valley Bitter"
+  abv: "4.1"
+  bar:
+    - "Nene Valley Bar"
+  desc: "Smooth, full-bodied, pale chestnut traditional bitter for everyday drinking. Gluten free."
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley"
+  new_brewery: false
+  beer: "Release the Chimps"
+  abv: "4.4"
+  bar:
+    - "Nene Valley Bar"
+  desc: "A pale malt base gives a crisp mouth feel and allows the late-addition and post-fermentation dry hops to come through with a clean, punchy bitterness. Gluten free."
+  location: "Oundle, Northants."
+
+- brewery: "Nene Valley/Andy Donovan"
+  new_brewery: false
+  beer: "A New England"
+  abv: "3.9"
+  bar:
+    - "Singles Bar"
+  desc: "HOME BREW WINNER Double dry hopped session strength N E IPA packed full of golden naked oats, wheat and shed loads of Citra, Mosaic and Vic Secret hops. Creamy and silky smooth. Strong fruit notes without the bitterness."
+  location: "Oundle, Northants."
+
+- brewery: "New Bristol"
+  new_brewery: false
+  beer: "Joy of Sesh"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Session IPA packed full of flavour. A simple clean malt bill with Maris Otter and oats for that lovely mouth feel. Expect tropical, citrus, stone-fruit notes. A true joy to drink. Vegan friendly."
+  location: "Bristol"
+
+- brewery: "Newby Wyke"
+  new_brewery: false
+  beer: "Eagle & Columbia"
+  abv: "5.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Celebrating 50 years of the moon landing"
+  location: "Grantham, Lincs"
+
+- brewery: "Newby Wyke"
+  new_brewery: false
+  beer: "Kingston Topaz"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "A 100% Golden Yellow Ale, with a hoppy aroma."
+  location: "Grantham, Lincs"
+
+- brewery: "Newby Wyke"
+  new_brewery: false
+  beer: "Shadow Extra Stout"
+  abv: "6.0"
+  bar:
+    - "Singles Bar"
+  desc: "Roasty thick chocolaty malt stout with caramel cap."
+  location: "Grantham, Lincs"
+
+- brewery: "Nobby's"
+  new_brewery: false
+  beer: "Mosaic"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Nothing known so far"
+  location: "Thrapston, Northants"
+
+- brewery: "Nobby's"
+  new_brewery: false
+  beer: "Symposium"
+  abv: "5.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Dark auburn ale with a big hoppy aroma using NZ and USA hops"
+  location: "Thrapston, Northants"
+
+- brewery: "Nobby's/Toby Wood"
+  new_brewery: false
+  beer: "CG-18"
+  abv: "6.2"
+  bar:
+    - "Singles Bar"
+  desc: "HOME BREW WINNER Vegan, unfiltered, American Pale Ale brewed with Thrapston water, malted barley, Simcoe hops, grapefruit and yeast. Light caramel maltiness, moderate sweetness, prominent grapefruit and well balanced "
+  location: "Thrapston, Northants"
+
+- brewery: "North Riding"
+  new_brewery: false
+  beer: "Ice Cream Porter"
+  abv: "4.5"
+  bar:
+    - "Singles Bar"
+  desc: "Can I have a Chocolate Mix 99 please! Aromas and flavours of chocolate and vanilla in this deliciously drinkable Ice Cream Porter. "
+  location: "East Ayton, North Yorkshire"
+
+- brewery: "North Riding"
+  new_brewery: false
+  beer: "UK Chinook"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "East Ayton, North Yorkshire"
+
+- brewery: "North Riding"
+  new_brewery: false
+  beer: "Vanilla Boubon Porter"
+  abv: "6.0"
+  bar:
+    - "Main Bar 3"
+  desc: "American pale ale, full bodied zesty beer from the North West of the US. Packed with tropical fruit and citrus flavours with subtle bittering and lemon and lime aromas. "
+  location: "East Ayton, North Yorkshire"
+
+- brewery: "Northdown"
+  new_brewery: true
+  beer: "He Bru I.P.A."
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Sunlight coloured ale – hoppy, floral, passion fruit on the nose with a taste of citrus, tangerine, passion fruit and a crisp bitter finish."
+  location: "Margate, Kent "
+
+- brewery: "Northdown"
+  new_brewery: true
+  beer: "Pale Ale Mary"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Pale amber ale with a hint of apricot, floral and citrus; slight bitterness, crisp finish."
+  location: "Margate, Kent "
+
+- brewery: "Oakham"
+  new_brewery: false
+  beer: "Citra"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Golden Ale, the original Citra in the UK. Bronze Champion at GBBF 2019"
+  location: "Peterborough"
+
+- brewery: "Oakham"
+  new_brewery: false
+  beer: "Northern Pacific"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "A full bodied zesty beer from the North West of the US. Packed with tropical fruit and citrus flavours with subtle bittering and lemon and lime aromas."
+  location: "Peterborough"
+
+- brewery: "Oakham"
+  new_brewery: false
+  beer: "Tranquility"
+  abv: "6.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Rich. Tropical. Juicy session IPA"
+  location: "Peterborough"
+
+- brewery: "Oldershaws"
+  new_brewery: false
+  beer: "Apollo"
+  abv: "5.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Commemorate the 50th anniversary of the ‘giant leap for mankind’, this is a shimmeringly pale beer with full lunar punchiness from zesty Citra and Apollo hops"
+  location: "Barkston Heath, Lincs."
+
+- brewery: "Oldershaws"
+  new_brewery: false
+  beer: "Heavenly Blonde"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Packed with zesty, super-refreshing tropical fruits with a strikingly crisp, dry finish."
+  location: "Barkston Heath, Lincs."
+
+- brewery: "One Mile End"
+  new_brewery: false
+  beer: "Jazz Police DDH I.P.A."
+  abv: "6.3"
+  bar:
+    - "Singles Bar"
+  desc: "Aroma of soft smooth malts and fruits. Taste is more dry hoppy, crisp citrus with a light minty bite at the finish"
+  location: "Edmonton, London N17"
+
+- brewery: "One Mile End"
+  new_brewery: false
+  beer: "Salvation Pale"
+  abv: "4.4"
+  bar:
+    - "Main Bar 3"
+  desc: "Session IPA"
+  location: "Edmonton, London N17"
+
+- brewery: "Orkney"
+  new_brewery: false
+  beer: "Man O Hoy Pale"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "A deep golden ale brewed with Mosaic and Amarillo hops for flavours of citrus and mango, It is creamy and hoppy with a long bitter fruity finish."
+  location: "Stromness, Orkney"
+
+- brewery: "Orkney"
+  new_brewery: false
+  beer: "Red MacGregor"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "A beautifully simple session beer with a stunning balance of hops and malt - a new taste sensation."
+  location: "Stromness, Orkney"
+
+- brewery: "Ossett"
+  new_brewery: false
+  beer: "Mango I.P.A."
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A golden IPA with moderate bitterness and a robust, full-bodied malty mouthfeel. The addition of mango puree during fermentation completes this very fruity and aromatic beer. Gluten free - Vegan"
+  location: "Ossett, West Yorkshire"
+
+- brewery: "Ossett"
+  new_brewery: false
+  beer: "Silver King"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: " Consistantly popular, this has a crisp, dry flavour and a fruity, citrus aroma."
+  location: "Ossett, West Yorkshire"
+
+- brewery: "Ossett / Fernandes"
+  new_brewery: false
+  beer: "Black Voodoo"
+  abv: "5.1"
+  bar:
+    - "Main Bar 3"
+  desc: "Black moreish beer with a chocolate, orangey, vanilla flavour coming through, brewed using Fuggles hops."
+  location: "Wakefield, West Yorkshire"
+
+- brewery: "Ossett / Fernandes"
+  new_brewery: false
+  beer: "Limelite"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "A blonde citrussy ale with a hint of lime zest. Thirst quenching session ale."
+  location: "Wakefield, West Yorkshire"
+
+- brewery: "Ossett / Rat"
+  new_brewery: false
+  beer: "Rat in Black"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Four different malts combine to give a beer with burnt, coffee & chocolate malt character. Slightly sweet on the palate, but with moderate bitterness & fruity/spicy aroma."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Ossett / Rat"
+  new_brewery: false
+  beer: "Reservoir Rat"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Aggressive pale ale. Hoppy bitter. Straw coloured and hopped with US Simcoe hops, this beer is dry, refreshing and thoroughly drinkable, with pine and citrus aromas and a bitter finish."
+  location: "Huddersfield, West Yorkshire"
+
+- brewery: "Ossett / Riverhead"
+  new_brewery: false
+  beer: "Brewdica"
+  abv: "5.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Brewsters IPA brewed with First Gold hops with orangey, marmalade flavours coming through, with spicy notes to finish."
+  location: "Marsden, West Yorkshire"
+
+- brewery: "Ossett / Riverhead"
+  new_brewery: false
+  beer: "Honey Blonde"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Mellow Pale Ale"
+  location: "Marsden, West Yorkshire"
+
+- brewery: "Papworth"
+  new_brewery: false
+  beer: "Saison D'etre"
+  abv: "6.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Festival special! A strong, but refreshing beer for the warmer days of summer. Complex pale ale with spicy characteristics and floral notes, leading to orange zest and a citrus and tropical fruitiness. "
+  location: "Earith, Cambs."
+
+- brewery: "Papworth"
+  new_brewery: false
+  beer: "The Bluntisham Beast"
+  abv: "6.5"
+  bar:
+    - "Singles Bar"
+  desc: "A traditional strong IPA with a modern fruity and hoppy twist, brewed initially for Bluntisham Beer Festival it received great reports so will definitely brew it again."
+  location: "Earith, Cambs."
+
+- brewery: "Papworth"
+  new_brewery: false
+  beer: "Whitfield Citrabolt"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Refreshing Lemon and grapefruit aromas and flavours dominate initially giving way to a lasting dry, bitter aftertaste. "
+  location: "Earith, Cambs."
+
+- brewery: "Parish"
+  new_brewery: false
+  beer: "Baz's Bonce Blower "
+  abv: "2.0"
+  bar:
+    - "Main Bar 3"
+  desc: "A festival classic and at one time (pre Brewdog) one of the strongest barley wines available"
+  location: "Burrough on the Hill, Leics"
+
+- brewery: "Parish"
+  new_brewery: false
+  beer: "Elderflower Ale"
+  abv: "4.1"
+  bar:
+    - "Festival Special"
+    - "Main Bar 3"
+  desc: "Best bitter with elderflower"
+  location: "Burrough on the Hill, Leics"
+
+- brewery: "Parish"
+  new_brewery: false
+  beer: "Farm Gold"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "A golden beer"
+  location: "Burrough on the Hill, Leics"
+
+- brewery: "Potton"
+  new_brewery: false
+  beer: "Dreadnought Munich Dunkel"
+  abv: "5.0"
+  bar:
+    - "Singles Bar"
+  desc: "German Bavarian lager, with a smooth, full body and a rich, bready malt flavour. A robustly powerful beer, equally suited to driving away the cold of a winter evening, or soaking up some late afternoon summer sun."
+  location: "Potton, Bedfordshire"
+
+- brewery: "Potton"
+  new_brewery: false
+  beer: "Holly Pup"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Dark mild with lots of chocolate, Target hops."
+  location: "Potton, Bedfordshire"
+
+- brewery: "Potton"
+  new_brewery: false
+  beer: "Nightspear"
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Black I.P.A. lots of dark fruit flavours."
+  location: "Potton, Bedfordshire"
+
+- brewery: "Powderkeg"
+  new_brewery: false
+  beer: "Brain Wave"
+  abv: "4.6"
+  bar:
+    - "Main Bar 3"
+  desc: "A great tasting, light, fresh summer beer that helps raise money to help end pollution in our oceans."
+  location: "Woodbury Salterton, Devon"
+
+- brewery: "Purple Moose"
+  new_brewery: false
+  beer: "Ysgawen Elderflower Ale"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "A refreshing pale ale brewed using Casade hops with the added indulgence of elderflower. "
+  location: "Porthmadog, Gwynedd"
+
+- brewery: "Quantock"
+  new_brewery: false
+  beer: "Q.P.A."
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Extremely light in colour, crafted using US hops, giving massive citrus flavour and aroma."
+  location: "Bishop's Lydeard, Somerset"
+
+- brewery: "Revolutions"
+  new_brewery: false
+  beer: "Bizarre Love Triangle"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Celebrating New Order\"s \"Bizarre Love Triangle\"by collaborating with renowned home brewer \"BrewChap\" on a lemon, ginger & cucumber saison."
+  location: "Castleford, West Yorkshire"
+
+- brewery: "Revolutions"
+  new_brewery: false
+  beer: "Marquee"
+  abv: "5.4"
+  bar:
+    - "Singles Bar"
+  desc: "U.S. I.P.A."
+  location: "Castleford, West Yorkshire"
+
+- brewery: "Revolutions"
+  new_brewery: false
+  beer: "Swoon"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Multi-award winning sweet stout with the moreish flavour of chocolate fudge. "
+  location: "Castleford, West Yorkshire"
+
+- brewery: "Rocket Ales"
+  new_brewery: false
+  beer: "Apollo 11 APA"
+  abv: "3.9"
+  bar:
+    - "Main Bar 3"
+  desc: "US Apollo hops used in this hoppy fruity ale. Their best seller of 2019"
+  location: "Great Staughton, Cambs."
+
+- brewery: "Rocket Ales"
+  new_brewery: false
+  beer: "Space Shuttle Brown"
+  abv: "3.6"
+  bar:
+    - "Main Bar 3"
+  desc: "A rich chestnut brown ale that picked up a Gold Award at Boston USA BeerEx "
+  location: "Great Staughton, Cambs."
+
+- brewery: "Rocket Ales"
+  new_brewery: false
+  beer: "Titan EPE"
+  abv: "4.4"
+  bar:
+    - "Main Bar 3"
+  desc: "Rich India Export Porter"
+  location: "Great Staughton, Cambs."
+
+- brewery: "Rockingham"
+  new_brewery: false
+  beer: "Disco Devil"
+  abv: "4.1"
+  bar:
+    - "Main Bar 3"
+  desc: "Golden beer made with Ahhtanum, Amerillo,Cascade and Citra hops. Expect citrus flavours including orange, grapefruit and lime."
+  location: "Blatherwyke, Northants"
+
+- brewery: "Rockingham"
+  new_brewery: false
+  beer: "Electric Mosaic"
+  abv: "4.7"
+  bar:
+    - "Main Bar 3"
+  desc: "Marris Otter malt and triple hopped with Mosaic. Light red ale, full of berry , pine and lime."
+  location: "Blatherwyke, Northants"
+
+- brewery: "Rockingham"
+  new_brewery: false
+  beer: "Hey Gringo"
+  abv: "4.1"
+  bar:
+    - "Festival Special"
+    - "Singles Bar"
+  desc: "Golden beer featuring Mexican limes and a dose of tequila. CARRAMBA."
+  location: "Blatherwyke, Northants"
+
+- brewery: "Rockingham"
+  new_brewery: false
+  beer: "White Rabbit"
+  abv: "3.9"
+  bar:
+    - "Main Bar 3"
+  desc: "Brewed with Galaxy and Nelson Sauvin hops giving peach , grape, and passion fruit flavours."
+  location: "Blatherwyke, Northants"
+
+- brewery: "Roman Way"
+  new_brewery: true
+  beer: "Boudicca Black I.P.A."
+  abv: "5.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Hoppy black beer for the Celtic Queen."
+  location: "Towcester "
+
+- brewery: "Roman Way"
+  new_brewery: true
+  beer: "Cleopatra Mild"
+  abv: "?.?"
+  bar:
+    - "Singles Bar"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Towcester "
+
+- brewery: "Roman Way"
+  new_brewery: true
+  beer: "Senate Gold"
+  abv: "4.1"
+  bar:
+    - "Main Bar 3"
+  desc: "Easy drinking golden ale."
+  location: "Towcester "
+
+- brewery: "Roosters"
+  new_brewery: false
+  beer: "24 7"
+  abv: "4.7"
+  bar:
+    - "Main Bar 3"
+  desc: "Beer is called 24/7"
+  location: "Knaresborough"
+
+- brewery: "Roosters"
+  new_brewery: false
+  beer: "White Rose"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Pale ale brewed using four hops and soft Yorkshire water to produce citrus aromas and a light and refreshing level of bitterness. Vegan friendly."
+  location: "Knaresborough"
+
+- brewery: "Roosters"
+  new_brewery: false
+  beer: "Yankee"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Pale coloured premium aromatic bitter. Our best selling beer. Aromas of Turkish Delight, lychees and sometimes Muscat grapes. Soft bitterness. "
+  location: "Knaresborough"
+
+- brewery: "Round Corner"
+  new_brewery: true
+  beer: "Jackroller"
+  abv: "5.6"
+  bar:
+    - "Main Bar 3"
+  desc: "Orange hue & extra large amounts of new world hops in new brewers strongest outing."
+  location: "Melton Mowbray, Leics. "
+
+- brewery: "Salopian"
+  new_brewery: false
+  beer: "Far Side"
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "A black rich opulent stout with aromas of chocolate, cocoa, and roasted malts the flavour is smooth and creamy with hints of cookie dough, vanilla, liquorice and resinous hops."
+  location: "Hadnall, Shropshire"
+
+- brewery: "Salopian"
+  new_brewery: false
+  beer: "Lemon Dream"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A shimmering golden ale that is brewed using organic lemons which adds beautifully subtle zesty aromas and a citrus filled fruity finish."
+  location: "Hadnall, Shropshire"
+
+- brewery: "Salopian"
+  new_brewery: false
+  beer: "Transfusion"
+  abv: "5.3"
+  bar:
+    - "Main Bar 3"
+  desc: "A delightful cranberry and pomegranate wheat beer"
+  location: "Hadnall, Shropshire"
+
+- brewery: "Sarah Hughes"
+  new_brewery: false
+  beer: "Dark Ruby Mild"
+  abv: "5.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Combines a balance of intense colour and flavour, making it an award winning festival favourite."
+  location: "Dudley, West Midlands"
+
+- brewery: "Skinner's"
+  new_brewery: false
+  beer: "Betty Stoggs"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Copper-coloured, with a light malty aroma, a floral, even cedar taste, and a sharp tang of bitter grapefruit"
+  location: "Truro, Cornwall"
+
+- brewery: "Skinner's"
+  new_brewery: false
+  beer: "Cornish Knocker"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A strong, clean tasting golden beer that’s not too sweet and with a fresh flowery aroma."
+  location: "Truro, Cornwall"
+
+- brewery: "St Austell"
+  new_brewery: false
+  beer: "Big Job Double I.P.A."
+  abv: "7.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Dry as a bone and jammed full of Cornish barley and as many Citra and Centennial hops as we could get our hands on."
+  location: "St Austell, Cornwall"
+
+- brewery: "St Austell"
+  new_brewery: false
+  beer: "Tribute"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Light, hoppy, zesty, easy to drink and consistently delicious. The zesty orange and grapefruit flavours are balanced with biscuit malt for this superb Cornish classic."
+  location: "St Austell, Cornwall"
+
+- brewery: "St Austell"
+  new_brewery: false
+  beer: "Tridant I.P.A."
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Traditional IPA using three nautically themed hop varieties. Admiral hops added to the boil provide a smooth bitterness with an orange-citrus and herbal resonance."
+  location: "St Austell, Cornwall"
+
+- brewery: "St. Peters"
+  new_brewery: false
+  beer: "Ruby Red"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "A rich, red ale with subtle malt undertones and a distinctive spicy hop aroma from Styrian Goldings. Brewed with skill and patience in one of Britain’s finest small breweries."
+  location: "South Elmham, Suffolk"
+
+- brewery: "St. Peters"
+  new_brewery: false
+  beer: "Stormtrooper Galactic Pale"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Galactic, hoppy session pale ale."
+  location: "South Elmham, Suffolk"
+
+- brewery: "Stoney Ford"
+  new_brewery: false
+  beer: "All Saints Almighty Amber"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Amber ale, gentle bitterness and late hopping gives a resinous, marmalade, orange aromatic and citrus bite."
+  location: "Oakham, Rutland"
+
+- brewery: "Stoney Ford"
+  new_brewery: false
+  beer: "Sheepmarket Supernova"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Summer sunshine strawberry blonde in a glass."
+  location: "Oakham, Rutland"
+
+- brewery: "Swannay"
+  new_brewery: false
+  beer: "Island Hopping"
+  abv: "3.9"
+  bar:
+    - "Main Bar 3"
+  desc: "A hoppy golden pale ale with a resin, lemon, hop character."
+  location: "Birsay, Orkney"
+
+- brewery: "Swannay"
+  new_brewery: false
+  beer: "Orkney I.P.A."
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "A modern IPA, not overly bitter but still nicely ‘hoppy’ and at 4.8%, just about a session IPA for a sensible night’s drinking. The hop profile is nothing short of stunning."
+  location: "Birsay, Orkney"
+
+- brewery: "Team Toxic"
+  new_brewery: true
+  beer: "The Wizard of Skerry Close"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Hoppy Pale Ale with Cascade and Green Bullet hops. Vegan"
+  location: "Liverpool "
+
+- brewery: "Team Toxic, Mission Creep"
+  new_brewery: true
+  beer: "Campania"
+  abv: "5.0"
+  bar:
+    - "Singles Bar"
+  desc: "Lots of toasty grains oats and wheat plus milk sugar to give an ice cream character"
+  location: "Liverpool "
+
+- brewery: "Team Toxic, Mission Creep"
+  new_brewery: true
+  beer: "Don't Talk Just Kiss"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Straightforward unfined , hazy, fruity and soft golden ale. Citrus, melon and slightly herby character. Vegan"
+  location: "Liverpool "
+
+- brewery: "Team Toxic, Waen"
+  new_brewery: true
+  beer: "Chilli Plum Porter"
+  abv: "6.1"
+  bar:
+    - "Main Bar 3"
+  desc: "An old school porter with lots of roasted barley and chocolate malt. Oh, and a hint of chilli, but not excessively hot."
+  location: "Liverpool "
+
+- brewery: "Team Toxic, Waen"
+  new_brewery: true
+  beer: "Eek-a-Mousse"
+  abv: "5.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A beer based on the famous stouts of the West Indies. "
+  location: "Liverpool "
+
+- brewery: "Theakston"
+  new_brewery: false
+  beer: "Old Peculier"
+  abv: "5.6"
+  bar:
+    - "Main Bar 3"
+  desc: "Ever popular ruby rich ale."
+  location: "Masham, North Yorkshire"
+
+- brewery: "Theakston"
+  new_brewery: false
+  beer: "Shot in the dark"
+  abv: "4.2"
+  bar:
+    - "Main Bar 3"
+  desc: "Shwarzbier style for Theakston Crime Writers Festival."
+  location: "Masham, North Yorkshire"
+
+- brewery: "Thornbridge"
+  new_brewery: false
+  beer: "AM:PM"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: " Session IPA, allowing you to enjoy all the flavours and body of an IPA at a lower ABV"
+  location: "Ashford-in-the-Water, Derbys."
+
+- brewery: "Thornbridge"
+  new_brewery: false
+  beer: "Jaipur"
+  abv: "5.9"
+  bar:
+    - "Main Bar 3"
+  desc: "A citrus dominated India Pale Ale, its immediate impression is soft and smooth yet builds to a crescendo of massive hoppiness accentuated by honey. An enduring, bitter finish. "
+  location: "Ashford-in-the-Water, Derbys."
+
+- brewery: "Thornbridge"
+  new_brewery: false
+  beer: "Market Porter"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Milk Stout"
+  location: "Ashford-in-the-Water, Derbys."
+
+- brewery: "Three Blind Mice"
+  new_brewery: false
+  beer: "Charlatan"
+  abv: "5.4"
+  bar:
+    - "Main Bar 3"
+  desc: "A dry hopped porter? Black I.P.A? Call it what you want. Dark, smooth and hopped to the back teeth with Simcoe & Mosaic."
+  location: "Little Downham, Cambs."
+
+- brewery: "Three Blind Mice"
+  new_brewery: false
+  beer: "Juice Rocket"
+  abv: "4.5"
+  bar:
+    - "Main Bar 3"
+  desc: "A juicy hoppy session I.P.A hopped with Mosaic, Citra & Columbus."
+  location: "Little Downham, Cambs."
+
+- brewery: "Three Blind Mice"
+  new_brewery: false
+  beer: "Zege"
+  abv: "4.6"
+  bar:
+    - "Main Bar 3"
+  desc: "Belgian blonde brewed with Pilsner malt and delicately hopped with Nelson Sauvin and Idaho 7 to produce a wonderfully fruity Belgian pale."
+  location: "Little Downham, Cambs."
+
+- brewery: "Three Brothers"
+  new_brewery: false
+  beer: "Trilogy"
+  abv: "3.9"
+  bar:
+    - "Main Bar 3"
+  desc: "Trio of American hops Azzaca, Citra & Simcoe."
+  location: "Stockton on Tees, Co. Durhm"
+
+- brewery: "Three Castles"
+  new_brewery: false
+  beer: "E.P.A."
+  abv: "5.1"
+  bar:
+    - "Main Bar 3"
+  desc: "English pale ale with strong hoppy fruity taste."
+  location: "Pewsey, Wiltshire"
+
+- brewery: "Three Castles"
+  new_brewery: false
+  beer: "Summer Daze"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Nothing known so far"
+  location: "Pewsey, Wiltshire"
+
+- brewery: "Three Hills"
+  new_brewery: false
+  beer: "Hefeweizen"
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Cloudy wheat beer."
+  location: "Thrapston, Northants."
+
+- brewery: "Three Hills"
+  new_brewery: false
+  beer: "I.P.A. V5"
+  abv: "4.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Fifth version of this duo hopped I.P.A."
+  location: "Thrapston, Northants."
+
+- brewery: "Three Hills"
+  new_brewery: false
+  beer: "Pepperberry Saison"
+  abv: "7.5"
+  bar:
+    - "Main Bar 3"
+  desc: "Strawberry & Pink Peppercorn infused Farmhouse Saison."
+  location: "Thrapston, Northants."
+
+- brewery: "Three Sods"
+  new_brewery: false
+  beer: "Bo Ho Bitter"
+  abv: "4.1"
+  bar:
+    - "Main Bar 3"
+  desc: "Dark golden bitter. Tangerine and grassy combined with warm malts and bitterness."
+  location: "Bethnal Green, London E2"
+
+- brewery: "Three Sods"
+  new_brewery: false
+  beer: "Maelstrom"
+  abv: "5.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Jam-packed with Mosaic and Simcoe, it’s the hoppiest beer we’ve ever brewed. "
+  location: "Bethnal Green, London E2"
+
+- brewery: "ThreeBlindMice/TeamToxic"
+  new_brewery: false
+  beer: "Why Can't Beer Taste Like Beer"
+  abv: "3.5"
+  bar:
+    - "Singles Bar"
+  desc: "Lime zest & coconut give this lite abv beer plenty of added flavour umph."
+  location: "L. Downham&Liverpool"
+
+- brewery: "Timothy Taylor"
+  new_brewery: false
+  beer: "Hopical Storm"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "A dry-hopped pale ale using only UK hops. Citrusy and sessionable, it has a fruity body of mandarin, mango and passion fruit."
+  location: "Keighley, West Yorkshire"
+
+- brewery: "Timothy Taylor"
+  new_brewery: false
+  beer: "Landlord"
+  abv: "4.3"
+  bar:
+    - "Main Bar 3"
+  desc: "Ever popular best bitter."
+  location: "Keighley, West Yorkshire"
+
+- brewery: "Tiny Rebel"
+  new_brewery: false
+  beer: "Pango"
+  abv: "5.0"
+  bar:
+    - "Singles Bar"
+  desc: "This is our Mosaic-hopped, peach-and-mango-infused juicy banger of an IPA."
+  location: "Newport, Gwent"
+
+- brewery: "Tiny Rebel"
+  new_brewery: false
+  beer: "Summer Crush"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Nothing known so far"
+  location: "Newport, Gwent"
+
+- brewery: "Tiny Rebel"
+  new_brewery: false
+  beer: "Super Sharpe Shooter"
+  abv: "3.8"
+  bar:
+    - "Main Bar 3"
+  desc: "Marmalade Pale."
+  location: "Newport, Gwent"
+
+- brewery: "Titanic"
+  new_brewery: false
+  beer: "Plum Porter"
+  abv: "4.9"
+  bar:
+    - "Main Bar 3"
+  desc: "This beer is dark, strong and well rounded; the richness of such a rotund beer is brought to an even keel by the late addition of Goldings hops and natural plum flavouring"
+  location: "Stoke on Trent, Staffordshire"
+
+- brewery: "Top Out"
+  new_brewery: false
+  beer: "Single Hop Pale"
+  abv: "3.6"
+  bar:
+    - "Main Bar 3"
+  desc: "Single hop Pale Ale"
+  location: "Loanhead, Midlothan"
+
+- brewery: "Tring"
+  new_brewery: false
+  beer: "Daisy Cutter"
+  abv: "4.0"
+  bar:
+    - "Main Bar 3"
+  desc: "Amber coloured ale with wonderful bready flavours. Huel Melon hops provide intense fruit with flavours and aromas of honeydew melon and strawberry."
+  location: "Tring, Buckinghamshire"
+
+- brewery: "Tring"
+  new_brewery: false
+  beer: "Death or Glory"
+  abv: "7.2"
+  bar:
+    - "Singles Bar"
+  desc: "Originally brewed on October 25th to commemorate the Charge of the Light Brigade. A strong, dark aromatic and estery barley wine."
+  location: "Tring, Buckinghamshire"
+
+- brewery: "Tring"
+  new_brewery: false
+  beer: "Mansion Mild"
+  abv: "3.7"
+  bar:
+    - "Main Bar 3"
+  desc: "A smooth, creamy, ruby dark mild with a fruity palate and gentle late hop aroma."
+  location: "Tring, Buckinghamshire"
+
+- brewery: "Tydd Steam"
+  new_brewery: false
+  beer: "Amnesiac"
+  abv: "4.9"
+  bar:
+    - "Main Bar 4"
+  desc: "Gold medal winner Peterborough Beer festival 2010. Pale premium bitter, hopped with unique Nelson Sauvin hops giving a soft white wine background and crushed gooseberry aroma."
+  location: "Tydd St. Giles, Cambs."
+
+- brewery: "Tydd Steam"
+  new_brewery: false
+  beer: "Amninjiac"
+  abv: "4.6"
+  bar:
+    - "Festival Special"
+    - "Singles Bar"
+  desc: "A premium golden bitter, blended from Amnesiac and Ginja Ninja, giving gooseberry and citrus bitterness with a hint of ginger"
+  location: "Tydd St. Giles, Cambs."
+
+- brewery: "Tydd Steam"
+  new_brewery: false
+  beer: "Barn Ale"
+  abv: "3.9"
+  bar:
+    - "Main Bar 4"
+  desc: "Refreshing pale session bitter, with a zesty bitterness and a lingering citrus finish."
+  location: "Tydd St. Giles, Cambs."
+
+- brewery: "Tydd Steam"
+  new_brewery: false
+  beer: "Ginja Ninja"
+  abv: "4.3"
+  bar:
+    - "Festival Special"
+    - "Main Bar 4"
+  desc: "A golden best bitter with smooth citrus bitterness from the American hops, root ginger and coriander"
+  location: "Tydd St. Giles, Cambs."
+
+- brewery: "Tyne Bank"
+  new_brewery: false
+  beer: "Silver Dollar"
+  abv: "4.9"
+  bar:
+    - "Main Bar 4"
+  desc: "An American Pale Ale with a robust malt base and west coast American hops, giving a bold citrus fruit flavour and a piney character. "
+  location: "Newcastle upon Tyne"
+
+- brewery: "Tyne Bank"
+  new_brewery: false
+  beer: "Summer Breeze"
+  abv: "3.9"
+  bar:
+    - "Main Bar 4"
+  desc: "A light pale ale brewed using Asian root ginger and lemongrass with a citrus character and suble spice kick."
+  location: "Newcastle upon Tyne"
+
+- brewery: "Uppingham Brewhouse"
+  new_brewery: true
+  beer: "UB1"
+  abv: "3.7"
+  bar:
+    - "Main Bar 4"
+  desc: "A rich, dark traditional session bitter with traditional hops. Biscuity barley flavours are coupled with a burnt-coffee like after-note, resulting from the addition of a tiny amount of roasted barley."
+  location: "Uppingham, Rutland "
+
+- brewery: "Uppingham Brewhouse"
+  new_brewery: true
+  beer: "UB2"
+  abv: "4.3"
+  bar:
+    - "Main Bar 4"
+  desc: "A Golden Ale perfect for the summer. Caramel malt and English hops create a refreshing combination of flavours."
+  location: "Uppingham, Rutland "
+
+- brewery: "Vadum"
+  new_brewery: true
+  beer: "Centurion"
+  abv: "4.0"
+  bar:
+    - "Main Bar 4"
+  desc: "Best Bitter from this new cuckoo brewery."
+  location: "Conisbrough, South Yorkshire "
+
+- brewery: "Vale of Glamorgan"
+  new_brewery: false
+  beer: "Lady Liberty"
+  abv: "4.8"
+  bar:
+    - "Main Bar 4"
+  desc: "A deep golden pale ale, packed with Simcoe and Mosaic with a hefty Citra dry-hop."
+  location: "Barry, South Glamorgan"
+
+- brewery: "Vale of Glamorgan"
+  new_brewery: false
+  beer: "Paradigm Shift"
+  abv: "4.2"
+  bar:
+    - "Main Bar 4"
+  desc: "Malty to the max and dry hopped."
+  location: "Barry, South Glamorgan"
+
+- brewery: "Welbeck Abbey"
+  new_brewery: false
+  beer: "When Life Gives You Lemons"
+  abv: "2.8"
+  bar:
+    - "Main Bar 4"
+  desc: "Tasting notes not available, please ask at bar for more info."
+  location: "Welbeck Worksop, Notts."
+
+- brewery: "Weldon"
+  new_brewery: false
+  beer: "Dragline"
+  abv: "3.9"
+  bar:
+    - "Main Bar 4"
+  desc: "Refreshing light session ale with hints of passion fruit, apricots and pine needles."
+  location: "Rushden, Northants."
+
+- brewery: "Weldon"
+  new_brewery: false
+  beer: "Hazelnut Stout"
+  abv: "4.2"
+  bar:
+    - "Main Bar 4"
+  desc: "Tasty light stout fermented over toasted hazelnuts"
+  location: "Rushden, Northants."
+
+- brewery: "Weldon"
+  new_brewery: false
+  beer: "Jam Roly Poly & Custard"
+  abv: "5.5"
+  bar:
+    - "Singles Bar"
+  desc: "Go straight back to school and wallow in these naughty flavours from your childhood school dinners. "
+  location: "Rushden, Northants."
+
+- brewery: "Weldon"
+  new_brewery: false
+  beer: "Paradesium"
+  abv: "4.4"
+  bar:
+    - "Main Bar 4"
+  desc: "Grapefruit pale ale featuring liberal additions of Chinook hops for a lingering grapefruit finish."
+  location: "Rushden, Northants."
+
+- brewery: "Welland"
+  new_brewery: false
+  beer: "Black Cow"
+  abv: "4.7"
+  bar:
+    - "Main Bar 4"
+  desc: "A smooth and luxurious oat and milk stout "
+  location: "Spalding, Lincolnshire"
+
+- brewery: "Welland"
+  new_brewery: false
+  beer: "Pale RyeNo"
+  abv: "4.1"
+  bar:
+    - "Main Bar 4"
+  desc: "A pale rye beer, nice citrusy aroma and flavour with a smooth bitterness. "
+  location: "Spalding, Lincolnshire"
+
+- brewery: "Welland"
+  new_brewery: false
+  beer: "Shipshape Blonde"
+  abv: "3.7"
+  bar:
+    - "Festival Special"
+    - "Main Bar 4"
+  desc: "Refreshing summer blonde with pleasant fruit aromas "
+  location: "Spalding, Lincolnshire"
+
+- brewery: "Whim"
+  new_brewery: false
+  beer: "Dougal Stout"
+  abv: "5.8"
+  bar:
+    - "Singles Bar"
+  desc: "Delicious old ale hybrid, full of body and roast flavours and keenly balanced."
+  location: "Hartington, Derbyshire"
+
+- brewery: "Whim"
+  new_brewery: false
+  beer: "Hartington Bitter"
+  abv: "4.5"
+  bar:
+    - "Main Bar 4"
+  desc: "Light golden in appearance, this thirst quenching session bitter is fruity and light.  Well balanced with a dry finish and spicy floral aroma."
+  location: "Hartington, Derbyshire"
+
+- brewery: "Whim"
+  new_brewery: false
+  beer: "Red House Ruby Porter"
+  abv: "4.7"
+  bar:
+    - "Main Bar 4"
+  desc: "Subtle session drink, full bodied with complex flavours, perfectly balanced throughout."
+  location: "Hartington, Derbyshire"
+
+- brewery: "Wolf"
+  new_brewery: false
+  beer: "Lavender Honey"
+  abv: "3.8"
+  bar:
+    - "Main Bar 4"
+  desc: "Norfolk honey infused beer."
+  location: "Attleborough, Norfolk"
+
+- brewery: "Wolf"
+  new_brewery: false
+  beer: "Sirius Dog Star"
+  abv: "4.4"
+  bar:
+    - "Main Bar 4"
+  desc: "Award winning red ale. SIBA Champion for 2018."
+  location: "Attleborough, Norfolk"
+
+- brewery: "Wooha"
+  new_brewery: false
+  beer: "Blonde"
+  abv: "4.0"
+  bar:
+    - "Main Bar 4"
+  desc: "A traditional blonde ale - crisp, light and we love it!"
+  location: "Kinloss, Moray"
+
+- brewery: "Wooha"
+  new_brewery: false
+  beer: "Porter"
+  abv: "5.0"
+  bar:
+    - "Main Bar 4"
+  desc: "Lightly hopped using Phoenix hops from the UK. Rich chocolate and coffee flavours which are wrapped in a mouth filling smokiness provided by the German rauch malt. Dark as night, with a smooth aftertaste."
+  location: "Kinloss, Moray"
+
+- brewery: "Working Hand"
+  new_brewery: false
+  beer: "Dr. Kelly's Sicknote"
+  abv: "4.2"
+  bar:
+    - "Main Bar 4"
+  desc: "This beer is light in colour but full of citrus hop character, it’s a cheerful beer best enjoyed in the company of your peers!"
+  location: "Leamside, County Durham"
+
+- brewery: "Xtreme Ales"
+  new_brewery: false
+  beer: "Milk Stout"
+  abv: "4.5"
+  bar:
+    - "Main Bar 4"
+  desc: "Traditional Milk Stout using Goldings hops for bittering and lots of lactose to give a rich creamy stout"
+  location: "Peterborough"
+
+- brewery: "Xtreme Ales"
+  new_brewery: false
+  beer: "Oatmeal Stout"
+  abv: "5.5"
+  bar:
+    - "Singles Bar"
+  desc: "A strong stout with flaked oats and a hint of smoked malt. Slight bittering gives a smooth dark beer with chocolate and smoky overtones."
+  location: "Peterborough"
+
+- brewery: "Xtreme Ales"
+  new_brewery: false
+  beer: "Triple Hop"
+  abv: "4.5"
+  bar:
+    - "Main Bar 4"
+  desc: "IPA style beer brewed with Chinook, Simcoe and Mosaic hops giving a fruity initial taste followed by a dry finish"
+  location: "Peterborough"
+
+- brewery: "Xtreme Ales"
+  new_brewery: false
+  beer: "Vogon Poetry"
+  abv: "5.0"
+  bar:
+    - "Main Bar 4"
+  desc: "Brewed to celebrate PBF 42nd festival, lots of Galaxy hops giving an intense flavour hit and aroma. Long aftertaste on this very palatable beer."
+  location: "Peterborough"
+
+- brewery: "Yard of Ale"
+  new_brewery: false
+  beer: "One Foot in the Yard"
+  abv: "4.5"
+  bar:
+    - "Main Bar 4"
+  desc: "Golden, premium ale. If you like your beer with a fruity, robust character then this is for you. "
+  location: "Ferryhill, County Durham"
