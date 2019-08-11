@@ -9,23 +9,23 @@
         </div>
     </div>
 
+    <!--{% assign pagePaths = "world-beer#ciders#gin#wine" | split: '#' %}-->
+    <!--{% assign pageNames = "World Beers#Cider & Perry#Gin#Wine" | split: '#' %}-->
+
+    {% assign pagePaths = "ciders" | split: '#' %}
+    {% assign pageNames = "Cider & Perries" | split: '#' %}
+
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Draught beers</a>
+                <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="/">Draught Beers</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">World Beer Bar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Cider &amp; Perry</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Gin Bar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Wine Bar</a>
-            </li>
+            {% for path in pagePaths %}
+                <li class="nav-item">
+                    {% assign fullPath = path | prepend: '/' | append: '.html' %}
+                    <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ fullPath }}">{{ pageNames[forloop.index0] }}</a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 

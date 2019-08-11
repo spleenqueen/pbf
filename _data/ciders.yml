@@ -1,0 +1,384 @@
+- brewery: "Barbourne"
+  beer: "Dabinett Whisky Cask"
+  abv: "7.5"
+  location: "Worcester, "
+
+- brewery: "Barbourne"
+  beer: "Strawberry"
+  abv: "4.0"
+  location: "Worcester, "
+
+- brewery: "Big Bear"
+  beer: "Essex Gold 9K"
+  abv: "5.6"
+  location: "Stisted, Essex"
+
+- brewery: "Black Rat"
+  beer: ""
+  abv: "6.0"
+  location: "Frome, Somerset"
+
+- brewery: "Bottle Kicking"
+  beer: "Pineapple, Peach & P.F."
+  abv: "4.0"
+  location: "Hallaton, Leicestershire"
+
+- brewery: "Bottle Kicking"
+  beer: "Rhubarb & Strawberry"
+  abv: "4.0"
+  location: "Hallaton, Leicestershire"
+
+- brewery: "Broadoak"
+  beer: "Rum & Raisin"
+  abv: "4.0"
+  location: "Clutton Hill, Somerset"
+
+- brewery: "Broadoak"
+  beer: "Sloe Gin"
+  abv: "4.0"
+  location: "Clutton Hill, Somerset"
+
+- brewery: "Broadoak"
+  beer: "Strawberry"
+  abv: "4.0"
+  location: "Clutton Hill, Somerset"
+
+- brewery: "Cambridge Cider Co."
+  beer: "Much Merriment"
+  abv: "6.5"
+  location: "Bassingbourne, Cambridgeshire"
+
+- brewery: "Cleve Orchard"
+  beer: ""
+  abv: "6.0"
+  location: "Ross-on-Wye, Herefordshire"
+
+- brewery: "Cockeyed Cider"
+  beer: "Bonobo Banana"
+  abv: "4.0"
+  location: "Cullompton, Devon"
+
+- brewery: "Cockeyed Cider"
+  beer: "Bush Pig"
+  abv: "7.0"
+  location: "Cullompton, Devon"
+
+- brewery: "Countryman"
+  beer: "Farm Cider"
+  abv: "6.5"
+  location: "Felldownhead, Devon"
+
+- brewery: "Dorset Nectar"
+  beer: "Damson"
+  abv: "4.0"
+  location: "Bridport, Dorset"
+
+- brewery: "Dorset Nectar"
+  beer: "Wild Cat"
+  abv: "5.5"
+  location: "Bridport, Dorset"
+
+- brewery: "Double Vision"
+  beer: ""
+  abv: "7.4"
+  location: "Maidstone, Kent"
+
+- brewery: "Downham Cider"
+  beer: "Jonagold"
+  abv: "6.0"
+  location: "Downham Market, Norfolk"
+
+- brewery: "Duddas Tun"
+  beer: "Apricot"
+  abv: "4.0"
+  location: "Sittingbourne, Kent"
+
+- brewery: "Duxford Scrumpy"
+  beer: "Summer Daze"
+  abv: "7.0"
+  location: "Cambridge, "
+
+- brewery: "English Fruits"
+  beer: "Briar Patch Blackberry"
+  abv: "4.0"
+  location: "Worcester, "
+
+- brewery: "English Fruits"
+  beer: "Rapple (Raspberry)"
+  abv: "4.0"
+  location: "Worcester, "
+
+- brewery: "Farmer Jim's"
+  beer: "Rhubarb Bob"
+  abv: "4.0"
+  location: "Newton Abbot, Devon"
+
+- brewery: "Garden City"
+  beer: "Rhubarb & Raspberry"
+  abv: "4.0"
+  location: "Chiddingford, Surrey"
+
+- brewery: "Garden City"
+  beer: "Vintage"
+  abv: "6.0"
+  location: "Chiddingford, Surrey"
+
+- brewery: "Gwatkins"
+  beer: "Red Diesel Strawberry"
+  abv: "6.0"
+  location: "Abbey Dore, Herefordshire"
+
+- brewery: "Gwatkins"
+  beer: "Stoke Red"
+  abv: "7.5"
+  location: "Abbey Dore, Herefordshire"
+
+- brewery: "Gwynt y Ddraig"
+  beer: "Autumn Magic (Blackberry)"
+  abv: "4.0"
+  location: "Pontypridd, Glamorgan"
+
+- brewery: "Gwynt y Ddraig"
+  beer: "Black Dragon 7.1999999999999"
+  abv: "9.0"
+  location: "Pontypridd, Glamorgan"
+
+- brewery: "Hallet's"
+  beer: "PX (Sherry Cask)"
+  abv: "6.0"
+  location: "Caerphilly, Wales"
+
+- brewery: "Harry's"
+  beer: "Scrummage"
+  abv: "6.2"
+  location: "Long Sutton, Somerset"
+
+- brewery: "Hecks"
+  beer: "Glastonbury Gold"
+  abv: "6.5"
+  location: "Street, Somerset"
+
+- brewery: "Hecks"
+  beer: "Port Wine of Glastonbury"
+  abv: "6.5"
+  location: "Street, Somerset"
+
+- brewery: "Heron Valley"
+  beer: "Traditional"
+  abv: "4.5"
+  location: "Kingsbridge, Devon"
+
+- brewery: "Hubz's"
+  beer: "Ang Over"
+  abv: "8.0"
+  location: "Peterborough, Cambridgeshire"
+
+- brewery: "Hubz's"
+  beer: "Cranberry & Raspberry"
+  abv: "7.5"
+  location: "Peterborough, Cambridgeshire"
+
+- brewery: "Hubz's"
+  beer: "Pineapple"
+  abv: "8.7"
+  location: "Peterborough, Cambridgeshire"
+
+- brewery: "Hunt's"
+  beer: "Bull Walloper"
+  abv: "7.2"
+  location: "Paignton, Devon"
+
+- brewery: "Hurst View"
+  beer: "Jibber Jabber"
+  abv: "7.2"
+  location: "Wheaton Aston, Staffordshire"
+
+- brewery: "Kentish Pip"
+  beer: "Vintage"
+  abv: "6.5"
+  location: "Canterbury, Kent"
+
+- brewery: "Lyme Bay"
+  beer: "Jack Ratt Vintage"
+  abv: "7.4"
+  location: "Axminster, Devon"
+
+- brewery: "Lyme Bay"
+  beer: "Reefbreak Cherry"
+  abv: "4.0"
+  location: "Axminster, Devon"
+
+- brewery: "New Forest"
+  beer: "Snake Catcher Scrumpy"
+  abv: "7.0"
+  location: "Burley, Hampshire"
+
+- brewery: "Newton Court"
+  beer: "Gasping Goose"
+  abv: "5.8"
+  location: "Leominster, Herefordshire"
+
+- brewery: "Olivers"
+  beer: ""
+  abv: "6.7"
+  location: "Ocle Pychard, Herefordshire"
+
+- brewery: "Orchard Pig"
+  beer: "Hogfather"
+  abv: "7.4"
+  location: "West Bradley , Somerset"
+
+- brewery: "Orchard Pig"
+  beer: "Tropical Jester"
+  abv: "4.0"
+  location: "West Bradley , Somerset"
+
+- brewery: "Potton Press"
+  beer: "Trip Hazard"
+  abv: "8.2"
+  location: "Sandy, Bedfordshire"
+
+- brewery: "Pulp Cider"
+  beer: "Rhubarb"
+  abv: "4.0"
+  location: "Hebden Bridge, Yorkshire"
+
+- brewery: "Purbeck Cider Co."
+  beer: "Muddy Scamp"
+  abv: "6.9"
+  location: "Purbeck, Dorset"
+
+- brewery: "Rich"
+  beer: "Farmhouse"
+  abv: "6.0"
+  location: "Watchfield, Somerset"
+
+- brewery: "Ross Cider & Perry Co."
+  beer: "Suzie Wong"
+  abv: "5.5"
+  location: "Peterstow, Herefordshire"
+
+- brewery: "Sandford Orchards"
+  beer: "The General"
+  abv: "8.4"
+  location: "Crediton, Devon"
+
+- brewery: "Saxby's"
+  beer: "Original"
+  abv: "5.0"
+  location: "Wellingborough, Northamptonshire"
+
+- brewery: "Sheppys"
+  beer: ""
+  abv: "6.0"
+  location: "Bradford-on-Tone, Somerset"
+
+- brewery: "Sheppys"
+  beer: "Raspberry"
+  abv: "4.0"
+  location: "Bradford-on-Tone, Somerset"
+
+- brewery: "SiDa"
+  beer: "Maxonian Mist"
+  abv: "5.6"
+  location: "Macclesfield, Cheshire"
+
+- brewery: "Simply Cider"
+  beer: "Liberty Press"
+  abv: "4.8"
+  location: "Market Harborough, Leicestershire"
+
+- brewery: "Skidbrooke"
+  beer: "Captain Cobbler"
+  abv: "6.0"
+  location: "Louth, Lincolnshire"
+
+- brewery: "Snailsbank"
+  beer: "Ginger"
+  abv: "4.0"
+  location: "Halmond Frome, Herefordshire"
+
+- brewery: "Snailsbank"
+  beer: "Pineapple & Pink Grapefruit"
+  abv: "4.0"
+  location: "Halmond Frome, Herefordshire"
+
+- brewery: "Snailsbank"
+  beer: "Rhubarb"
+  abv: "4.0"
+  location: "Halmond Frome, Herefordshire"
+
+- brewery: "St. Ives"
+  beer: ""
+  abv: "4.5"
+  location: "St.Ives, Cornwall"
+
+- brewery: "Thatchers"
+  beer: "Cheddar Valley"
+  abv: "6.0"
+  location: "Sandford, Somerset"
+
+- brewery: "Three Cats"
+  beer: ""
+  abv: "6.7"
+  location: "Morley, Derbyshire"
+
+- brewery: "Ventons"
+  beer: "Sweet Maid in Devon"
+  abv: "6.0"
+  location: "Cullompton, Devon"
+
+- brewery: "Watergull Orchards"
+  beer: ""
+  abv: "6.0"
+  location: "Wisbech, Cambridgeshire"
+
+- brewery: "Watergull Orchards"
+  beer: "Blackcurrant"
+  abv: "4.0"
+  location: "Wisbech, Cambridgeshire"
+
+- brewery: "Westcroft"
+  beer: "Janet's Jungle Juice"
+  abv: "6.0"
+  location: "Brent Knoll, Somerset"
+
+- brewery: "Westons"
+  beer: "Cherry"
+  abv: "4.0"
+  location: "Much Marcle, Herefordshire"
+
+- brewery: "Westons"
+  beer: "Old Rosie"
+  abv: "6.8"
+  location: "Much Marcle, Herefordshire"
+
+- brewery: "Westons"
+  beer: "Rhubarb"
+  abv: "4.0"
+  location: "Much Marcle, Herefordshire"
+
+- brewery: "Whin Hill"
+  beer: "Browns Apple"
+  abv: "5.4"
+  location: "Wells-next-the-Sea, Norfolk"
+
+- brewery: "Whin Hill"
+  beer: "Major"
+  abv: "7.2"
+  location: "Wells-next-the-Sea, Norfolk"
+
+- brewery: "Wilkins"
+  beer: "Farmhouse"
+  abv: "6.0"
+  location: "Wedmore, Somerset"
+
+- brewery: "Winkleigh"
+  beer: "Sam's"
+  abv: "6.0"
+  location: "Winkleigh, Devon"
+
+- brewery: "Winkleigh"
+  beer: "Sam's Blackcurrant"
+  abv: "4.0"
+  location: "Winkleigh, Devon"

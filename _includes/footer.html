@@ -43,7 +43,7 @@
 <script src="js/bootstrap.bundle.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 <script type="text/javascript">
-    var options = {
+    var beerOptions = {
         valueNames: [
             'brewery',
             'name',
@@ -53,7 +53,29 @@
         ]
     };
 
-    var userList = new List('beers', options);
+    var beerList = new List('beers', beerOptions);
+
+    var ciderOptions = {
+        valueNames: [
+            'mill',
+            'name',
+            'abv',
+            'region',
+        ]
+    };
+
+    var ciderList = new List('ciders', ciderOptions);
+
+    var perryOptions = {
+        valueNames: [
+            'mill',
+            'name',
+            'abv',
+            'region',
+        ]
+    };
+
+    var perryList = new List('perries', perryOptions);
 
     $(function () {
         // Add tooltips.
