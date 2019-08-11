@@ -65,17 +65,7 @@
     };
 
     var ciderList = new List('ciders', ciderOptions);
-
-    var perryOptions = {
-        valueNames: [
-            'mill',
-            'name',
-            'abv',
-            'region',
-        ]
-    };
-
-    var perryList = new List('perries', perryOptions);
+    var perryList = new List('perries', ciderOptions);
 
     $(function () {
         // Add tooltips.

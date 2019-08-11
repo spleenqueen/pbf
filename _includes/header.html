@@ -23,7 +23,8 @@
             {% for path in pagePaths %}
                 <li class="nav-item">
                     {% assign fullPath = path | prepend: '/' | append: '.html' %}
-                    <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ fullPath }}">{{ pageNames[forloop.index0] }}</a>
+                    {% assign relativePath = path | append: '.html' %}
+                    <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ relativePath }}">{{ pageNames[forloop.index0] }}</a>
                 </li>
             {% endfor %}
         </ul>
