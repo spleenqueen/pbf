@@ -3,31 +3,72 @@ layout: default
 ---
 
 <div id="beers">
-    <div class="navbar navbar-light bg-light">
+    <div class="bg-light my-3 p-3">
         <div class="form-group">
             <label for="search">Start typing to search the list:</label>
-            <input id="search" class="search form-control form-control-lg" placeholder="Search"/>
+            <input id="search" class="search form-control" placeholder="Search"/>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="toggle-desc">
+                <label class="form-check-label" for="toggle-desc">
+                    Toggle descriptions
+                </label>
+                <small class="form-text text-muted">
+                    Click a name to pop-up a descriptiom, or use this checkbox to toggle them on and off within the table.
+                </small>
+            </div>
         </div>
     </div>
+
+    <div id="accordion" class="my-3">
+        <div class="card">
+            <div class="card-header bg-light px-2 py-1" id="keyHeading">
+                <h5 class="mb-0">
+                    <button class="btn btn-link btn-sm btn-block py-0 text-left" data-toggle="collapse" data-target="#key" aria-expanded="true" aria-controls="key">
+                        Bar Key
+                    </button>
+                </h5>
+            </div>
+
+            <div id="key" class="collapse" aria-labelledby="keyHeading" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3"><span class="badge badge-pill badge-danger">NEW</span> New brewery</div>
+                        <div class="col-md-4 col-lg-3"><span class="badge badge-pill badge-primary">FEST</span> Festival Special</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3"><span class="badge badge-pill badge-success">SB</span> Singles Bar</div>
+                        <div class="col-md-4 col-lg-3"><span class="badge badge-pill badge-info">BB</span> Brewery Bar</div>
+                        <div class="col-md-4 col-lg-3"><span class="badge badge-pill badge-secondary">KK</span> Key Keg Bar</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3"><span class="badge badge-pill badge-dark">&nbsp;1&nbsp;</span> Main Bar 1</div>
+                        <div class="col-md-3"><span class="badge badge-pill badge-dark">&nbsp;2&nbsp;</span> Main Bar 2</div>
+                        <div class="col-md-3"><span class="badge badge-pill badge-dark">&nbsp;3&nbsp;</span> Main Bar 3</div>
+                        <div class="col-md-3"><span class="badge badge-pill badge-dark">&nbsp;4&nbsp;</span> Main Bar 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% assign tableHead = "Brewery#Name#abv#Bar#Region" | split: '#' %}
     <div class="table-responsive">
         <table class="table table-striped">
             <thead class="thead-dark">
             <tr>
-                <th>
-                    <button class="sort" data-sort="brewery">Brewery</button>
-                </th>
-                <th>
-                    <button class="sort" data-sort="name">Name</button>
-                </th>
-                <th>
-                    <button class="sort" data-sort="abv">abv</button>
-                </th>
-                <th>
-                    <button class="sort" data-sort="bar">Bar</button>
-                </th>
-                <th>
-                    <button class="sort" data-sort="region">Region</button>
-                </th>
+                {% for th in tableHead %}
+                    <th>
+                        <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
+                            {{ th }}
+                            <span class="sort-icons">
+                                <i class="fas fa-sort-up"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </span>
+                        </button>
+                    </th>
+                {% endfor %}
             </tr>
             </thead>
             <!-- IMPORTANT, class="list" have to be at tbody -->
@@ -37,18 +78,21 @@ layout: default
                 <td class="brewery">
                     {{ beer.brewery }}
                     {% if beer.new_brewery %}
-                        &nbsp;<span class="badge badge-pill badge-danger">new</span>
+                    &nbsp;<span class="badge badge-pill badge-danger">NEW</span>
                     {% endif %}
                 </td>
                 <td>
-                    <a data-toggle="modal" href="#desc{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <span  class="name">{{ beer.beer }}</span>
+                    <a data-toggle="modal" href="#desc{{ forloop.index }}" role="button" aria-expanded="false"
+                       aria-controls="collapseExample">
+                        <span class="name">{{ beer.beer }}</span>
                     </a>
-                    <div class="modal fade"  id="desc{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="desc{{ forloop.index }}" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">{{ beer.beer }} ({{ beer.brewery }})</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">{{ beer.beer }} ({{ beer.brewery
+                                        }})</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -59,27 +103,41 @@ layout: default
                             </div>
                         </div>
                     </div>
+                    <div class="toggle-desc">
+                        {{ beer.desc }}
+                    </div>
                 </td>
                 <td class="abv">{{ beer.abv }}%</td>
                 <td class="bar">
                     {% for bar in beer.bar %}
                         {% if bar == 'Main Bar 1' %}
-                            <span class="badge badge-pill badge-dark">&nbsp;1&nbsp;</span>
+                            {% assign pillText = '&nbsp;1&nbsp;' %}
+                            {% assign pillColour = 'dark' %}
                         {% elsif bar == 'Main Bar 2' %}
-                            <span class="badge badge-pill badge-dark">&nbsp;2&nbsp;</span>
+                            {% assign pillText = '&nbsp;2&nbsp;' %}
+                            {% assign pillColour = 'dark' %}
                         {% elsif bar == 'Main Bar 3' %}
-                            <span class="badge badge-pill badge-dark">&nbsp;3&nbsp;</span>
+                            {% assign pillText = '&nbsp;3&nbsp;' %}
+                            {% assign pillColour = 'dark' %}
                         {% elsif bar == 'Main Bar 4' %}
-                            <span class="badge badge-pill badge-dark">&nbsp;4&nbsp;</span>
+                            {% assign pillText = '&nbsp;4&nbsp;' %}
+                            {% assign pillColour = 'dark' %}
                         {% elsif bar == 'Singles Bar' %}
-                            <span class="badge badge-pill badge-success">&nbsp;SB&nbsp;</span>
+                            {% assign pillText = 'SB' %}
+                            {% assign pillColour = 'success' %}
                         {% elsif bar == 'Key Keg Bar' %}
-                            <span class="badge badge-pill badge-secondary">&nbsp;KK&nbsp;</span>
+                            {% assign pillText = 'KK' %}
+                            {% assign pillColour = 'secondary' %}
                         {% elsif bar == 'Festival Special' %}
-                            <span class="badge badge-pill badge-primary">&nbsp;FEST&nbsp;</span>
+                            {% assign pillText = 'FEST' %}
+                            {% assign pillColour = 'primary' %}
                         {% else %}
-                            <span class="badge badge-pill badge-info">&nbsp;BB&nbsp;</span>
+                            {% assign pillText = 'BB' %}
+                            {% assign pillColour = 'info' %}
                         {% endif %}
+
+                        <a href="#" class="badge badge-pill badge-{{ pillColour }}" data-toggle="tooltip"
+                           title="{{ beer.bar }}">{{ pillText }}</a>
                     {% endfor %}
                 </td>
                 <td class="region">{{ beer.location }}</td>

@@ -54,4 +54,19 @@
     };
 
     var userList = new List('beers', options);
+
+    $(function () {
+        // Add tooltips.
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('#toggle-desc').change(function() {
+            if ($(this).is(':checked')) {
+                $('.toggle-desc').show();
+            }
+            else {
+                $('.toggle-desc').hide();
+            }
+
+        });
+    })
 </script>

@@ -1,0 +1,40 @@
+.sort-icons .fa-sort-up,
+.sort-icons .fa-sort-down {
+    right: 0.5em;
+    font-weight: 900;
+    font-size: 1rem;
+    position: absolute;
+    bottom: .5em;
+    display: block;
+}
+
+.sort:not(.asc):not(.desc) .sort-icons i {
+    opacity: .5;
+}
+
+.sort.asc .sort-icons i,
+.sort.desc .sort-icons i {
+    color: lightgreen;
+}
+
+.sort.asc .fa-sort-down {
+    opacity: .5;
+}
+
+.sort.desc .fa-sort-up {
+    opacity: .5;
+}
+
+.sort-icons .fa-sort-up {
+    bottom: .5em;
+}
+
+button.sort {
+    position: relative;
+    display: block;
+    padding-right: 1.5em;
+}
+
+.toggle-desc {
+    display: none;
+}
