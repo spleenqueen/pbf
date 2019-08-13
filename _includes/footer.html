@@ -40,45 +40,6 @@
 <!--</footer>-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundle.js"></script>
+<script src="{{ site.baseurl }}js/bootstrap.bundle.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-<script type="text/javascript">
-    var beerOptions = {
-        valueNames: [
-            'brewery',
-            'name',
-            'abv',
-            'bar',
-            'region',
-        ]
-    };
-
-    var beerList = new List('beers', beerOptions);
-
-    var ciderOptions = {
-        valueNames: [
-            'mill',
-            'name',
-            'abv',
-            'region',
-        ]
-    };
-
-    var ciderList = new List('ciders', ciderOptions);
-    var perryList = new List('perries', ciderOptions);
-
-    $(function () {
-        // Add tooltips.
-        $('[data-toggle="tooltip"]').tooltip();
-
-        $('#toggle-desc').change(function() {
-            if ($(this).is(':checked')) {
-                $('.toggle-desc').show();
-            }
-            else {
-                $('.toggle-desc').hide();
-            }
-
-        });
-    })
-</script>
+<script src="{{ site.baseurl }}js/main.js"></script>

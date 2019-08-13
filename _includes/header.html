@@ -18,11 +18,11 @@
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="index.html">Draught Beers</a>
+                <a class="nav-link {% if page.url == site.baseurl %}active{% endif %}" href="{{ site.baseurl }}">Draught Beers</a>
             </li>
             {% for path in pagePaths %}
                 <li class="nav-item">
-                    {% assign fullPath = path | prepend: '/' | append: '.html' %}
+                    {% assign fullPath = path | prepend: site.base_url | append: '.html' %}
                     {% assign relativePath = path | append: '.html' %}
                     <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ relativePath }}">{{ pageNames[forloop.index0] }}</a>
                 </li>

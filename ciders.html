@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="beers">
+<div id="ciders">
     <div class="bg-light my-3 p-3">
         <div class="form-group">
             <label for="search">Start typing to search the list:</label>
@@ -11,89 +11,44 @@ layout: default
     </div>
 
 
-    {% assign tableHead = "Mill#Name#abv#Region" | split: '#' %}
+    {% assign tableHead = "Type#Mill#Name#abv#Region" | split: '#' %}
 
-    <ul class="nav nav-pills mb-2" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="ciders-tab" data-toggle="tab" href="#ciders" role="tab" aria-controls="ciders" aria-selected="true">Ciders</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="perries-tab" data-toggle="tab" href="#perries" role="tab" aria-controls="perries" aria-selected="false">Perries</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="ciders" role="tabpanel" aria-labelledby="ciders-tab">
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead class="thead-dark">
-                    <tr>
-                        {% for th in tableHead %}
-                        <th>
-                            <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
-                                {{ th }}
-                                <span class="sort-icons">
-                                <i class="fas fa-sort-up"></i>
-                                <i class="fas fa-sort-down"></i>
-                            </span>
-                            </button>
-                        </th>
-                        {% endfor %}
-                    </tr>
-                    </thead>
-                    <!-- IMPORTANT, class="list" have to be at tbody -->
-                    <tbody class="list">
-                    {% for beer in site.data.ciders %}
-                    <tr>
-                        <td class="mill">
-                            {{ beer.brewery }}
-                        </td>
-                        <td>
-                            <span class="name">{{ beer.beer }}</span>
-                        </td>
-                        <td class="abv">{{ beer.abv }}%</td>
-                        <td class="region">{{ beer.location }}</td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="tab-pane fade" id="perries" role="tabpanel" aria-labelledby="perries-tab">
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead class="thead-dark">
-                    <tr>
-                        {% for th in tableHead %}
-                        <th>
-                            <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
-                                {{ th }}
-                                <span class="sort-icons">
-                                <i class="fas fa-sort-up"></i>
-                                <i class="fas fa-sort-down"></i>
-                            </span>
-                            </button>
-                        </th>
-                        {% endfor %}
-                    </tr>
-                    </thead>
-                    <!-- IMPORTANT, class="list" have to be at tbody -->
-                    <tbody class="list">
-                    {% for beer in site.data.perries %}
-                    <tr>
-                        <td class="mill">
-                            {{ beer.brewery }}
-                        </td>
-                        <td>
-                            <span class="name">{{ beer.beer }}</span>
-                        </td>
-                        <td class="abv">{{ beer.abv }}%</td>
-                        <td class="region">{{ beer.location }}</td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+            <tr>
+                {% for th in tableHead %}
+                <th>
+                    <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
+                        {{ th }}
+                        <span class="sort-icons">
+                        <i class="fas fa-sort-up"></i>
+                        <i class="fas fa-sort-down"></i>
+                    </span>
+                    </button>
+                </th>
+                {% endfor %}
+            </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+            {% for beer in site.data.ciders %}
+            <tr>
+                <td class="type">
+                    {{ beer.type }}
+                </td>
+                <td class="mill">
+                    {{ beer.brewery }}
+                </td>
+                <td>
+                    <span class="name">{{ beer.beer }}</span>
+                </td>
+                <td class="abv">{{ beer.abv }}%</td>
+                <td class="region">{{ beer.location }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
     </div>
 </div>
 
