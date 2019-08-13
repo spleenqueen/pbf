@@ -12,17 +12,18 @@
     <!--{% assign pagePaths = "world-beer#ciders#gin#wine" | split: '#' %}-->
     <!--{% assign pageNames = "World Beers#Cider & Perry#Gin#Wine" | split: '#' %}-->
 
+    {% assign baseUrl = site.baseurl | prepend: '/' %}
     {% assign pagePaths = "ciders" | split: '#' %}
     {% assign pageNames = "Cider & Perries" | split: '#' %}
 
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link {% if page.url == site.baseurl %}active{% endif %}" href="{{ site.baseurl }}">Draught Beers</a>
+                <a class="nav-link {% if page.url == baseUrl %}active{% endif %}" href="{{ baseUrl }}">Draught Beers</a>
             </li>
             {% for path in pagePaths %}
                 <li class="nav-item">
-                    {% assign fullPath = path | prepend: site.base_url | append: '.html' %}
+                    {% assign fullPath = path | prepend: baseUrl | append: '.html' %}
                     {% assign relativePath = path | append: '.html' %}
                     <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ relativePath }}">{{ pageNames[forloop.index0] }}</a>
                 </li>
