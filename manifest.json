@@ -1,0 +1,9 @@
+{
+  "name": "Peterborough CAMRA Beer Festival 2019 Lists",
+  "short_name": "Pbo Beer Fest 2019 Lists",
+  "lang": "en-UK",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}
