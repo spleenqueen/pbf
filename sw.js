@@ -4,6 +4,8 @@ var filesToCache = [
     '/pbf/index.html',
     '/pbf/ciders.html',
     '/pbf/css/bootstrap.min.css',
+    '/pbf/css/custom.css',
+    '/pbf/js/bootstrap.bundle.min.js',
     '/pbf/js/main.js'
 ];
 
