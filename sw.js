@@ -3,6 +3,7 @@ var filesToCache = [
     '/pbf',
     '/pbf/index.html',
     '/pbf/ciders.html',
+    '/pbf/images/icons/icons.svg',
     '/pbf/css/bootstrap.min.css',
     '/pbf/css/custom.css',
     '/pbf/js/bootstrap.bundle.min.js',

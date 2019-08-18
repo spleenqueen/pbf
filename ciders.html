@@ -2,49 +2,52 @@
 layout: default
 ---
 
-<div id="ciders">
+<div id="ciders" class="mt-3">
+    <h1>Ciders &amp; Perries</h1>
     <div class="bg-light my-3 p-3">
-        <div class="form-group">
+        <div class="form-group mb-0">
             <label for="search">Start typing to search the list:</label>
             <input id="search" class="search form-control" placeholder="Search"/>
         </div>
     </div>
 
-
     {% assign tableHead = "Type#Mill#Name#abv#Region" | split: '#' %}
 
     <div class="table-responsive">
         <table class="table table-striped">
-            <thead class="thead-dark">
+            <thead>
             <tr>
                 {% for th in tableHead %}
                 <th>
                     <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
                         {{ th }}
                         <span class="sort-icons">
-                        <i class="fas fa-sort-up"></i>
-                        <i class="fas fa-sort-down"></i>
-                    </span>
+                            <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                              <use xlink:href="#sort-up"></use>
+                            </svg>
+                            <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                              <use xlink:href="#sort-down"></use>
+                            </svg>
+                        </span>
                     </button>
                 </th>
                 {% endfor %}
             </tr>
             </thead>
-            <!-- IMPORTANT, class="list" have to be at tbody -->
             <tbody class="list">
             {% for beer in site.data.ciders %}
             <tr>
-                <td class="type">
+                <td class="type" data-label="Type: ">
                     {{ beer.type }}
                 </td>
-                <td class="mill">
+                <td class="mill" data-label="Mill: ">
                     {{ beer.brewery }}
                 </td>
-                <td>
+                <td data-label="Name: ">
                     <span class="name">{{ beer.beer }}</span>
                 </td>
-                <td class="abv">{{ beer.abv }}%</td>
-                <td class="region">{{ beer.location }}</td>
+                <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                <td class="region" data-label="Region: ">{{ beer.location }}</td>
             </tr>
             {% endfor %}
             </tbody>

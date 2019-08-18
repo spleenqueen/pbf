@@ -1,31 +1,30 @@
-.sort-icons .fa-sort-up,
-.sort-icons .fa-sort-down {
+.sort-icons .sort-up,
+.sort-icons .sort-down {
     right: 0.5em;
     font-weight: 900;
-    font-size: 1rem;
     position: absolute;
     bottom: .5em;
     display: block;
 }
 
-.sort:not(.asc):not(.desc) .sort-icons i {
+.sort:not(.asc):not(.desc) .sort-icons .icon {
     opacity: .5;
 }
 
-.sort.asc .sort-icons i,
-.sort.desc .sort-icons i {
+.sort.asc .sort-icons .icon,
+.sort.desc .sort-icons .icon {
     color: lightgreen;
 }
 
-.sort.asc .fa-sort-down {
+.sort.asc .sort-down {
     opacity: .5;
 }
 
-.sort.desc .fa-sort-up {
+.sort.desc .sort-up {
     opacity: .5;
 }
 
-.sort-icons .fa-sort-up {
+.sort-icons .sort-up {
     bottom: .5em;
 }
 
@@ -38,3 +37,55 @@ button.sort {
 .toggle-desc {
     display: none;
 }
+
+/**
+ * Default icon style
+ */
+.icon {
+    /* Use the current text color as the icon’s fill color. */
+    fill: currentColor;
+    /* Inherit the text’s size too. Also allows sizing the icon by changing its font-size. */
+    width: 1em;
+    height: 1em;
+    /* The default vertical-align is `baseline`, which leaves a few pixels of space below the icon. Using `center` prevents this. For icons shown alongside text, you may want to use a more precise value, e.g. `vertical-align: -4px` or `vertical-align: -0.15em`. */
+    vertical-align: middle;
+    /* Paths and strokes that overflow the viewBox can show in IE11. */
+    overflow: hidden;
+}
+
+@media all and (max-width: 992px) {
+    td {
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+    }
+
+    thead::before {
+        content: 'Sort by: ';
+        margin-bottom: 0.5em;
+        display: block;
+    }
+
+    td, tr {
+        display: block;
+    }
+
+    th {
+        display: inline-block;
+        border: none !important;
+        padding: 0 0.5em 0.5em 0 !important;
+    }
+
+    td:not(:first-of-type) {
+        padding-top: 0;
+        border-top: none !important;
+    }
+
+    td:not(:last-of-type) {
+        padding-bottom: 0;
+    }
+}
+

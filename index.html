@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div id="beers">
+<div id="beers" class="mt-3">
+    <h1>Draught beers</h1>
     <div id="accordion" class="my-3">
         <div class="card">
             <div class="card-header bg-light px-2 py-1" id="keyHeading">
@@ -40,7 +41,7 @@ layout: default
             <label for="search">Start typing to search the list:</label>
             <input id="search" class="search form-control" placeholder="Search"/>
         </div>
-        <div class="form-group">
+        <div class="form-group mb-0">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="toggle-desc">
                 <label class="form-check-label" for="toggle-desc">
@@ -56,32 +57,35 @@ layout: default
     {% assign tableHead = "Brewery#Name#abv#Bar#Region" | split: '#' %}
     <div class="table-responsive">
         <table class="table table-striped">
-            <thead class="thead-dark">
+            <thead>
             <tr>
                 {% for th in tableHead %}
                     <th>
                         <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
                             {{ th }}
                             <span class="sort-icons">
-                                <i class="fas fa-sort-up"></i>
-                                <i class="fas fa-sort-down"></i>
+                                <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-up"></use>
+                                </svg>
+                                <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-down"></use>
+                                </svg>
                             </span>
                         </button>
                     </th>
                 {% endfor %}
             </tr>
             </thead>
-            <!-- IMPORTANT, class="list" have to be at tbody -->
             <tbody class="list">
             {% for beer in site.data.beers %}
             <tr>
-                <td class="brewery">
+                <td class="brewery" data-label="Brewery: ">
                     {{ beer.brewery }}
                     {% if beer.new_brewery %}
                     &nbsp;<span class="badge badge-pill badge-danger">NEW</span>
                     {% endif %}
                 </td>
-                <td>
+                <td data-label="Name: ">
                     <a data-toggle="modal" href="#desc{{ forloop.index }}" role="button" aria-expanded="false"
                        aria-controls="collapseExample">
                         <span class="name">{{ beer.beer }}</span>
@@ -107,8 +111,8 @@ layout: default
                         {{ beer.desc }}
                     </div>
                 </td>
-                <td class="abv">{{ beer.abv }}%</td>
-                <td class="bar">
+                <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                <td class="bar" data-label="Bar: ">
                     {% for bar in beer.bar %}
                         {% if bar == 'Main Bar 1' %}
                             {% assign pillText = '&nbsp;1&nbsp;' %}
@@ -140,7 +144,7 @@ layout: default
                            title="{{ beer.bar }}">{{ pillText }}</a>
                     {% endfor %}
                 </td>
-                <td class="region">{{ beer.location }}</td>
+                <td class="region" data-label="Region: ">{{ beer.location }}</td>
             </tr>
             {% endfor %}
             </tbody>

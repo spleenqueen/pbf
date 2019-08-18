@@ -1,8 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="display:none">
+    <symbol id="beer" viewBox="0 0 448 512">
+        <path fill="currentColor" d="M368 96h-48V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24v-42.11l80.606-35.977C429.396 365.063 448 336.388 448 304.86V176c0-44.112-35.888-80-80-80zm16 208.86a16.018 16.018 0 0 1-9.479 14.611L320 343.805V160h48c8.822 0 16 7.178 16 16v128.86zM208 384c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16zm-96 0c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16z"></path>
+    </symbol>
+    <symbol id="sort-down" viewBox="0 0 320 512">
+        <path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path>
+    </symbol>
+    <symbol id="sort-up" viewBox="0 0 320 512">
+        <path fill="currentColor" d="M279 224H41c-21.4 0-32.1-25.9-17-41L143 64c9.4-9.4 24.6-9.4 33.9 0l119 119c15.2 15.1 4.5 41-16.9 41z"></path>
+    </symbol>
+</svg>
+
 <header class="site-header" role="banner">
-    <div class="navbar navbar-dark bg-dark shadow-sm mb-4">
+    <div class="navbar navbar-dark bg-info shadow-sm mb-4">
         <div class="container d-flex justify-content-between">
             <span class="navbar-brand d-flex align-items-center">
-                <i class="fas fa-beer"></i>
+                <svg class="icon" aria-hidden="true" focusable="false">
+                  <use xlink:href="#beer"></use>
+                </svg>
                 <strong class="ml-2 d-none d-sm-block">Peterborough Beer Festival 2019 Lists</strong>
                 <strong class="ml-2 d-sm-none">PBF 2019 Lists</strong>
             </span>
@@ -13,8 +27,8 @@
     <!--{% assign pageNames = "World Beers#Cider & Perry#Gin#Wine" | split: '#' %}-->
 
     {% assign baseUrl = site.baseurl | append: '/' %}
-    {% assign pagePaths = "ciders" | split: '#' %}
-    {% assign pageNames = "Cider & Perries" | split: '#' %}
+    {% assign pagePaths = "ciders#about" | split: '#' %}
+    {% assign pageNames = "Ciders & Perries#About" | split: '#' %}
 
     <div class="container">
         <ul class="nav nav-tabs">
@@ -28,6 +42,9 @@
                     <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ relativePath }}">{{ pageNames[forloop.index0] }}</a>
                 </li>
             {% endfor %}
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="http://www.peterborough-camra.org.uk/index.php?bf=1">Official Beer Fest site</a>
+            </li>
         </ul>
     </div>
 
