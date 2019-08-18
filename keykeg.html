@@ -1,0 +1,171 @@
+---
+layout: default
+---
+
+<div class="mt-3">
+    <h1>Key Keg Bar</h1>
+
+    {% assign tableHead = "Brewery#Name#abv#Region" | split: '#' %}
+
+    <ul class="nav nav-pills" id="cp-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="local-tab" data-toggle="tab" href="#localtab" role="tab"
+               aria-controls="localtab" aria-selected="true">Local</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="fa-tab" data-toggle="tab" href="#fatab" role="tab" aria-controls="fatab"
+               aria-selected="false">Further Afield</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="cp-tabs-content">
+        <div class="tab-pane fade show active" id="localtab" role="tabpanel" aria-labelledby="local-tab">
+            <div id="locals">
+                <div class="bg-light my-3 p-3">
+                    <div class="form-group mb-0">
+                        <label for="search">Start typing to search the list:</label>
+                        <input id="search" class="search form-control" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped" data-filterable="locals">
+                        <thead>
+                        <tr>
+                            {% for th in tableHead %}
+                            <th>
+                                <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}"
+                                        data-sort="{{ th | downcase }}">
+                                    {{ th }}
+                                    <span class="sort-icons">
+                            <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                              <use xlink:href="#sort-up"></use>
+                            </svg>
+                            <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                              <use xlink:href="#sort-down"></use>
+                            </svg>
+                        </span>
+                                </button>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody class="list">
+                        {% for beer in site.data.keykeg_local %}
+                        <tr>
+                            <td class="brewery" data-label="Brewery: ">
+                                {{ beer.brewery }}
+                            </td>
+                            <td data-label="Name: ">
+                                <a data-toggle="modal" href="#desc{{ forloop.index }}" role="button"
+                                   aria-expanded="false"
+                                   aria-controls="collapseExample">
+                                    <span class="name">{{ beer.beer }}</span>
+                                </a>
+                                <div class="modal fade" id="desc{{ forloop.index }}" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="descModal{{ forloop.index }}">{{ beer.beer }} ({{
+                                                    beer.brewery
+                                                    }})</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                {{ beer.desc }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-desc">
+                                    {{ beer.desc }}
+                                </div>
+                            </td>
+                            <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                            <td class="region" data-label="Region: ">{{ beer.location }}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="fatab" role="tabpanel" aria-labelledby="fa-tab">
+            <div id="perries">
+                <div class="bg-light my-3 p-3">
+                    <div class="form-group mb-0">
+                        <label for="search-2">Start typing to search the list:</label>
+                        <input id="search-2" class="search form-control" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped" data-filterable="perries">
+                        <thead>
+                        <tr>
+                            {% for th in tableHead %}
+                            <th>
+                                <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}"
+                                        data-sort="{{ th | downcase }}">
+                                    {{ th }}
+                                    <span class="sort-icons">
+                                <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-up"></use>
+                                </svg>
+                                <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-down"></use>
+                                </svg>
+                            </span>
+                                </button>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody class="list">
+                        {% for beer in site.data.keykeg_fa %}
+                        <tr>
+                            <td class="brewery" data-label="Brewery: ">
+                                {{ beer.brewery }}
+                            </td>
+                            <td data-label="Name: ">
+                                <a data-toggle="modal" href="#fadesc{{ forloop.index }}" role="button"
+                                   aria-expanded="false"
+                                   aria-controls="collapseExample">
+                                    <span class="name">{{ beer.beer }}</span>
+                                </a>
+                                <div class="modal fade" id="fadesc{{ forloop.index }}" tabindex="-1" role="dialog"
+                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="fadescModalLabel{{ forloop.index }}">{{ beer.beer }} ({{
+                                                    beer.brewery
+                                                    }})</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                {{ beer.desc }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-desc">
+                                    {{ beer.desc }}
+                                </div>
+                            </td>
+                            <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                            <td class="region" data-label="Region: ">{{ beer.location }}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

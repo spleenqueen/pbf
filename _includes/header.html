@@ -10,8 +10,12 @@
     </symbol>
 </svg>
 
+{% assign baseUrl = site.baseurl | append: '/' %}
+{% assign pagePaths = "ciders#worldbeers#keykeg#wine-gin#about" | split: '#' %}
+{% assign pageNames = "Ciders & Perries#World Beers#Key Keg#Wine & Gin#About" | split: '#' %}
+
 <header class="site-header" role="banner">
-    <div class="navbar navbar-dark bg-info shadow-sm mb-4">
+    <div class="navbar navbar-dark bg-info shadow-sm">
         <div class="container d-flex justify-content-between">
             <span class="navbar-brand d-flex align-items-center">
                 <svg class="icon" aria-hidden="true" focusable="false">
@@ -20,14 +24,32 @@
                 <strong class="ml-2 d-none d-sm-block">Peterborough Beer Festival 2019 Lists</strong>
                 <strong class="ml-2 d-sm-none">PBF 2019 Lists</strong>
             </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse bg-light" id="navbarText">
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ baseUrl }}">Draught Beers</a>
+                </li>
+                {% for path in pagePaths %}
+                <li class="nav-item">
+                    {% assign fullPath = path | prepend: '/' | append: '.html' %}
+                    {% assign relativePath = path | append: '.html' %}
+                    <a class="nav-link {% if page.url == fullPath %}active{% endif %}" href="{{ relativePath }}">{{ pageNames[forloop.index0] }}</a>
+                </li>
+                {% endfor %}
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="http://www.peterborough-camra.org.uk/index.php?bf=1">Official Beer Fest site</a>
+                </li>
+            </ul>
         </div>
     </div>
 
-    {% assign baseUrl = site.baseurl | append: '/' %}
-    {% assign pagePaths = "ciders#worldbeers#about" | split: '#' %}
-    {% assign pageNames = "Ciders & Perries#World Beers#About" | split: '#' %}
-
-    <div class="container">
+    <div class="container desktop-nav mt-4">
         <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ baseUrl }}">Draught Beers</a>
