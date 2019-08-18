@@ -8,20 +8,6 @@ window.onload = () => {
 };
 
 $(function () {
-    // if ($('#beers').length) {
-    //     var beerOptions = {
-    //         valueNames: ['brewery', 'name', 'abv', 'bar', 'region']
-    //     };
-    //     var beerList = new List('beers', beerOptions);
-    // }
-    //
-    // if ($('#ciders').length) {
-    //     var ciderOptions = {
-    //         valueNames: ['type', 'mill', 'name', 'abv', 'region']
-    //     };
-    //     var ciderList = new List('ciders', ciderOptions);
-    // }
-
     var $filterableTables = $('[data-filterable]');
     if ($filterableTables.length) {
         $filterableTables.each(function () {
@@ -36,9 +22,6 @@ $(function () {
             var filterOptions = {
                 valueNames: valueNames
             };
-
-            console.log(filterOptions);
-            console.log(tableId);
 
             var list = new List(tableId, filterOptions);
         });
