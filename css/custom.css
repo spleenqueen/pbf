@@ -89,3 +89,18 @@ button.sort {
     }
 }
 
+.desktop-nav {
+    display: none;
+}
+
+@media all and (min-width: 1025px) {
+    .navbar-collapse,
+    .navbar-toggler {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: block;
+    }
+}
+
