@@ -6,7 +6,9 @@ var filesToCache = [
     '/pbf/images/icons/icons.svg',
     '/pbf/css/bootstrap.min.css',
     '/pbf/css/custom.css',
+    '/pbf/js/jquery-3.3.1.slim.min.js',
     '/pbf/js/bootstrap.bundle.min.js',
+    '/pbf/js/list.min.js',
     '/pbf/js/main.js'
 ];
 
