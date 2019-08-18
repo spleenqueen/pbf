@@ -18,7 +18,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   An unofficial, searchable, re-orderable list of beers, ciders, gins and wines available at the Peterborough Beer Festival 2019.
 baseurl: "/pbf" # the subpath of your site, e.g. /blog
-url: "https://spleenqueen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://spleenqueen.github.io/pbf" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spleenqueen
 github_username:  spleenqueen
 
