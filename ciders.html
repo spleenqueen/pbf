@@ -2,26 +2,37 @@
 layout: default
 ---
 
-<div id="ciders" class="mt-3">
+<div class="mt-3">
     <h1>Ciders &amp; Perries</h1>
-    <div class="bg-light my-3 p-3">
-        <div class="form-group mb-0">
-            <label for="search">Start typing to search the list:</label>
-            <input id="search" class="search form-control" placeholder="Search"/>
-        </div>
-    </div>
 
-    {% assign tableHead = "Type#Mill#Name#abv#Region" | split: '#' %}
+    {% assign tableHead = "Mill#Name#abv#Region" | split: '#' %}
 
-    <div class="table-responsive">
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                {% for th in tableHead %}
-                <th>
-                    <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
-                        {{ th }}
-                        <span class="sort-icons">
+    <ul class="nav nav-pills" id="cp-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="cider-tab" data-toggle="tab" href="#cidertab" role="tab" aria-controls="cidertab" aria-selected="true">Ciders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="perry-tab" data-toggle="tab" href="#perrytab" role="tab" aria-controls="perrytab" aria-selected="false">Perries</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="cp-tabs-content">
+        <div class="tab-pane fade show active" id="cidertab" role="tabpanel" aria-labelledby="cider-tab">
+            <div id="ciders">
+                <div class="bg-light my-3 p-3">
+                    <div class="form-group mb-0">
+                        <label for="search">Start typing to search the list:</label>
+                        <input id="search" class="search form-control" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped" data-filterable="ciders">
+                        <thead>
+                        <tr>
+                            {% for th in tableHead %}
+                            <th>
+                                <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
+                                    {{ th }}
+                                    <span class="sort-icons">
                             <svg class="icon sort-up" aria-hidden="true" focusable="false">
                               <use xlink:href="#sort-up"></use>
                             </svg>
@@ -29,29 +40,76 @@ layout: default
                               <use xlink:href="#sort-down"></use>
                             </svg>
                         </span>
-                    </button>
-                </th>
-                {% endfor %}
-            </tr>
-            </thead>
-            <tbody class="list">
-            {% for beer in site.data.ciders %}
-            <tr>
-                <td class="type" data-label="Type: ">
-                    {{ beer.type }}
-                </td>
-                <td class="mill" data-label="Mill: ">
-                    {{ beer.brewery }}
-                </td>
-                <td data-label="Name: ">
-                    <span class="name">{{ beer.beer }}</span>
-                </td>
-                <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
-                <td class="region" data-label="Region: ">{{ beer.location }}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+                                </button>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody class="list">
+                        {% for beer in site.data.ciders %}
+                        <tr>
+                            <td class="mill" data-label="Mill: ">
+                                {{ beer.brewery }}
+                            </td>
+                            <td data-label="Name: ">
+                                <span class="name">{{ beer.beer }}</span>
+                            </td>
+                            <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                            <td class="region" data-label="Region: ">{{ beer.location }}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="perrytab" role="tabpanel" aria-labelledby="perry-tab">
+            <div id="perries">
+                <div class="bg-light my-3 p-3">
+                    <div class="form-group mb-0">
+                        <label for="search-2">Start typing to search the list:</label>
+                        <input id="search-2" class="search form-control" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped" data-filterable="perries">
+                        <thead>
+                        <tr>
+                            {% for th in tableHead %}
+                            <th>
+                                <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
+                                    {{ th }}
+                                    <span class="sort-icons">
+                                <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-up"></use>
+                                </svg>
+                                <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-down"></use>
+                                </svg>
+                            </span>
+                                </button>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody class="list">
+                        {% for beer in site.data.perries %}
+                        <tr>
+                            <td class="mill" data-label="Mill: ">
+                                {{ beer.brewery }}
+                            </td>
+                            <td data-label="Name: ">
+                                <span class="name">{{ beer.beer }}</span>
+                            </td>
+                            <td class="abv" data-label="ABV: ">{{ beer.abv }}%</td>
+                            <td class="region" data-label="Region: ">{{ beer.location }}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
