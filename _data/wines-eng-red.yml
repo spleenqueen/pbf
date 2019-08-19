@@ -1,0 +1,19 @@
+- winery: "Dedham Vale"
+  name: "Reserve Red 2016"
+  abv: "10.5"
+  desc: "Ruby red medium-bodied English wine with red berry flavours of redcurrants, raspberries and liquorice. Leavened by gentle tannins from time spent ageing in French Limousin oak barrels."
+
+- winery: "Giffords Hall Vineyard"
+  name: "St Edmundsbury Red 2015"
+  abv: "11"
+  desc: "An early drinking light Dry Red from Pinot Noir and Rondo grapes, a rare ‘teinturier’ grape with red juice and red skin. The result is velvet soft and very fruity notes."
+
+- winery: "Stanlake Park"
+  name: "The Reserve Red 2014"
+  abv: "12"
+  desc: "It has subtle oak maturing and yet retains its fresh, dry, fruity flavour. Made from Dornfelder, Triomphe and Rondo grapes."
+
+- winery: "Three Choirs"
+  name: "Ravens Hill Red 2016"
+  abv: "11.1"
+  desc: "Deep, ruby coloured red wine full of ripe blackberry and cherry fruit on the nose with a subtle hint of lightly toasted oak from the American Barrel ageing."

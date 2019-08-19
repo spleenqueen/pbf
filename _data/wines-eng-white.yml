@@ -1,0 +1,69 @@
+- winery: "Dedham Vale"
+  name: "Bacchus Dry 2016"
+  abv: "10.5"
+  desc: "Crisp dry white wine of good length and depth, with flavours of lemon and elderflower on the palate."
+
+- winery: "Dedham Vale"
+  name: "Colchester Oyster Med Dry 2016"
+  abv: "12"
+  desc: "A medium dry white wine is produced using a short, cool fermentation period. Giving a gentle slightly dry flavour is achieved with grapefruit and melon aromas to suffuse the nose and palate."
+
+- winery: "Elysian Fields"
+  name: "Bacchus Dry 2016"
+  abv: "10.5"
+  desc: "Pale lemon in colour with gentle floral notes and a dash of citrus. It is dry with well-balanced acidity and layers of well-rounded fruit."
+
+- winery: "Elysian Fields"
+  name: "Bacchus Med Dry 2017"
+  abv: "10.5"
+  desc: "Pale lemon in colour with gentle floral notes and a dash of citrus. It is medium dry with well-balanced acidity."
+
+- winery: "Lyme Bay Winery"
+  name: "Bacchus Sandbar White 2016"
+  abv: "11"
+  desc: "Single grape variety wine with notes of grapefruit, lemon and subtle oak with fantastic length."
+
+- winery: "Lyme Bay Winery"
+  name: "Chardonnay 2016"
+  abv: "11.5"
+  desc: "A well-rounded dry wine made with Chardonnay and a small quantity of Bacchus grape varieties. With subtle buttery flavours and aromas of peach turnover, honey and Pineapple."
+
+- winery: "Lyme Bay Winery"
+  name: "Shoreline White 2017"
+  abv: "11"
+  desc: "Crisp and refreshing wine with subtle notes of citrus fruit and rose petal.Made from Seyval Blanc, Bacchus and Pinot Noir grapes."
+
+- winery: "Stanlake Park"
+  name: "Bacchus Vintage White"
+  abv: "11.5"
+  desc: "Fresh and fruity wine shows hints of elderflower, citrus and gooseberry, with floral notes and some herbaceous hints."
+
+- winery: "Stanlake Park"
+  name: "Regatta Dry White 2016"
+  abv: "11.5"
+  desc: "One of the first wines made by Stanlake and has been a consistent blend of several grape varieties, such as Ortega and Schonburger, to make a dry, crisp, fresh wine, with a clean herbaceous finish."
+
+- winery: "Three Choirs"
+  name: "English House White Dry 2017"
+  abv: "11"
+  desc: "A delicate aroma of fragrant fruit characters which delivers a crisp lemony wine with a fresh dry finish."
+
+- winery: "Three Choirs"
+  name: "English House White Med Dry 2016"
+  abv: "11"
+  desc: "Widely appealing white wine with ripe fruit flavours. Melon, mango and a hint of spice, with a crisp dry finish. A blend of Seyval Blanc, Reichensteiner and Muller Thurgau grapes."
+
+- winery: "Three Choirs"
+  name: "May Hill White Medium 2015"
+  abv: "10"
+  desc: "Aromatic herb and floral nose with harmonious palate. Medium and well balanced, with rich honeyed fruit."
+
+- winery: "Three Choirs"
+  name: "Siegerrehe 2015"
+  abv: "11"
+  desc: "A rich, aromatic wine with powerful spice on the nose, lychee and grapefruit on the palate,and a long soft spicy finish."
+
+- winery: "Warden Abbey"
+  name: "The Non-Conformist White"
+  abv: "12"
+  desc: "Bright fresh citrus aromas. Sweet fruit on the palate - grapefruit and tropical fruits - followed by fresh lime and lemon."

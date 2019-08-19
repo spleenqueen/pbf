@@ -1,0 +1,30 @@
+- winery: "Dedham Vale"
+  name: "Brut Reserve Sparkling"
+  abv: "11"
+  desc: "Made with Orion and Chardonnay grapes, good depth on the palate with attractive fresh fruit flavours and yeasty overtones."
+
+- winery: "Giffords Hall Vineyard"
+  name: "Sparkling White"
+  abv: "12"
+  desc: "Pinot Noir based is gently refreshing and has a lovely mouth feel. Carefully blended from our barrel aged reserves is has a wonderfully soft fruit character redolent of red apples and subtle spices."
+
+- winery: "Lyme Bay Winery"
+  name: "Sparkling Strawberry"
+  abv: "13"
+  desc: "The wine has a soft creamy bubble complimenting the delicate flavour of summer strawberries."
+
+- winery: "Stanlake Park"
+  name: "Heritage Brut Sparkling"
+  abv: "12.5"
+  desc: "Light bodied sparkling wine that is crisp, dry and refreshing.Made from Seyval Blanc, Muller Thurgau, Reichenstein and Pinot Meunier grapes."
+
+- winery: "Three Choirs"
+  name: "Classic Brut Sparkling"
+  abv: "12"
+  desc: "Traditionally-made sparkling wine of very high quality. Dry and subtle it is very similar to a good champagne."
+
+- winery: "Warden Abbey"
+  name: "Warden Abbey Sparkling Brut"
+  abv: "12.5"
+  desc: "The nose is fragrant and fresh. The palate starts with a mix of citrus fruits. There is depth and breadth of flavour in the middle, a hint of sweet fruit, with the mix of grapefruit and lime."
+

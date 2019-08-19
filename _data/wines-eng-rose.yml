@@ -1,0 +1,34 @@
+- winery: "Dedham Vale"
+  name: "Rosé 2017 Med Dry"
+  abv: "11.5"
+  desc: "Light and refreshing, medium dry, with a soft fruit character on the palate."
+
+- winery: "Elysian Fields"
+  name: "Rosé Dry 2015/2016"
+  abv: "10.5"
+  desc: "A beautiful rose pink off dry wine with loads of soft summer fruit notes on the bouquet. A crisp acidity with hints of strawberry and peach sit lightly on the palate."
+
+- winery: "Giffords Hall Vineyard"
+  name: "Rosé Dry 2017"
+  abv: "11"
+  desc: "White peach and roses, crisp acidity, delicate but concentrated with white fruit and floral accent."
+
+- winery: "Lyme Bay Winery"
+  name: "Pinot Noir Rosé Med Dry 2015"
+  abv: "11.5"
+  desc: "Soft delicious Rosé Wine is a 100% single-variety, a complex aroma of cherries, rosehip, strawberries and cream, and tight acidity."
+
+- winery: "Stanlake Park"
+  name: "English Rosé 2014"
+  abv: "11.5"
+  desc: "Vivacious, lively and fun, this new English Rosé is made from Rondo together with aromatic grapes such as Schonburger. This wine is dry, fruity (hints of red cherry, raspberry) and refreshing."
+
+- winery: "Stanlake Park"
+  name: "Pinot Blush Rosé 2013"
+  abv: "11.5"
+  desc: "A sophisticated rosé, made mainly by Pinot noir grapes. With delicate aromas of rose petals, lively acidity and dried fruit hints, our Pinot blush demonstrates that also rosé wine can age beautifully."
+
+- winery: "Three Choirs"
+  name: "Estate Rosé 2017"
+  abv: "10.5"
+  desc: "A delicious off-dry Rose full of the aroma of strawberries and summer fruits. A light delicate Rose, just off dry with a strong bouquet of strawberries and summer fruit."

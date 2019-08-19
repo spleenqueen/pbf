@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="mt-3">
+    <h1>Wine</h1>
+
+    {% assign tableHead = "Winery#Name#abv" | split: '#' %}
+    {% assign wineTypes = "wines-eng-white#wines-eng-rose#wines-eng-red#wines-eng-sparkling#wines-trad" | split: '#' %}
+    {% assign wineTypeNames = "English Vineyard White Wines#English Vineyard Rosé Wines#English Vineyard Red Wines#English Vineyard Sparkling Wines#Traditional Country Wines" | split: '#' %}
+
+    <ul class="nav nav-pills" id="wine-tabs" role="tablist">
+        {% for type in wineTypes %}
+            <li class="nav-item">
+                <a class="nav-link {% if forloop.first == true %}active{% endif %}" id="wine{{ forloop.index }}-tab" data-toggle="tab" href="#wine{{ forloop.index }}tab" role="tab" aria-controls="wine{{ forloop.index }}tab" aria-selected="true">{{ wineTypeNames[forloop.index0] }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <div class="tab-content" id="wine-tabs-content">
+        {% for type in wineTypes %}
+            <div class="tab-pane fade show {% if forloop.first == true %}active{% endif %}" id="wine{{ forloop.index }}tab" role="tabpanel" aria-labelledby="wine{{ forloop.index }}-tab">
+                <div id="wines{{ type }}{{ forloop.index }}">
+                    <div class="bg-light my-3 p-3">
+                        <div class="form-group">
+                            <label for="search">Start typing to search the list:</label>
+                            <input id="search" class="search form-control" placeholder="Search"/>
+                        </div>
+                        <div class="form-group mb-0">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="toggle-desc{{ type }}">
+                                <label class="form-check-label" for="toggle-desc{{ type }}">
+                                    Toggle descriptions
+                                </label>
+                                <small class="form-text text-muted">
+                                    Click a name to pop-up a description, or use this checkbox to toggle them on and off within the table.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped" data-filterable="wines{{ type }}{{ forloop.index }}">
+                            <thead>
+                            <tr>
+                                {% for th in tableHead %}
+                                <th>
+                                    <button class="btn btn-block btn-secondary sort {% if forloop.first == true %}asc{% endif %}" data-sort="{{ th | downcase }}">
+                                        {{ th }}
+                                        <span class="sort-icons">
+                                <svg class="icon sort-up" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-up"></use>
+                                </svg>
+                                <svg class="icon sort-down" aria-hidden="true" focusable="false">
+                                  <use xlink:href="#sort-down"></use>
+                                </svg>
+                            </span>
+                                    </button>
+                                </th>
+                                {% endfor %}
+                            </tr>
+                            </thead>
+                            <tbody class="list">
+                            {% for wine in site.data[type] %}
+                            <tr>
+                                <td class="winery" data-label="Winery: ">
+                                    {{ wine.winery }}
+                                </td>
+                                <td data-label="Name: ">
+                                    <a data-toggle="modal" href="#desc{{ type }}{{ forloop.index }}" role="button" aria-expanded="false"
+                                       aria-controls="collapseExample">
+                                        <span class="name">{{ wine.name }}</span>
+                                    </a>
+                                    <div class="modal fade" id="desc{{ type }}{{ forloop.index }}" tabindex="-1" role="dialog"
+                                         aria-labelledby="descModal{{ type }}{{ forloop.index }}" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="descModal{{ type }}{{ forloop.index }}">{{ wine.name }} ({{ wine.winery
+                                                        }})</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    {{ wine.desc }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="toggle-desc">
+                                        {{ wine.desc }}
+                                    </div>
+                                </td>
+                                <td class="abv" data-label="ABV: ">{{ wine.abv }}%</td>
+                            </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+

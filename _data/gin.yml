@@ -1,0 +1,140 @@
+- distillery: "Adnams"
+  name: "Lemon & Tamarind"
+  abv: "40.00"
+  style: "F"
+  desc: "Limited edition, small batch distillation has a unique and delicious taste of bright citrus and tropical fruits."
+
+- distillery: "Adnams"
+  name: "Riding Sun Gin"
+  abv: "42.00"
+  style: "F"
+  desc: "Japanese matcha tea, lemongrass a special blend of botanicals."
+
+- distillery: "Amber Falls"
+  name: "Orange Marmalade Gin"
+  abv: "41.30"
+  style: "F"
+  desc: "Fresh orange juice, with a punchy kick of dried juniper. A bit pithy at points."
+
+- distillery: "Ableforths"
+  name: "Bath Tub Gin"
+  abv: "43.30"
+  style: "OT"
+  desc: "Made with 12 Botanicals, Old Tom Style."
+
+- distillery: "Bloom"
+  name: "Jasmine & Rose Gin"
+  abv: "40.00"
+  style: "F"
+  desc: "A refined floral and earthy fragrance - elderflower and jasmine adds an extra dimension to this pink gin."
+
+- distillery: "Blue Monkey"
+  name: "Mango & Passion Fruit Gin"
+  abv: "37.50"
+  style: "F"
+  desc: "Based on classic London Dry, the infusion of exotic mango and passionfruit gives a fun fruity gin."
+
+- distillery: "Blue Monkey"
+  name: "Salted Caramel Gin"
+  abv: "37.50"
+  style: "F"
+  desc: "A modern vibrant creation based on handcrafted London Dry gin, with the addition of creamy caramel and just a hint of sea salt."
+
+- distillery: "Blue Monkey"
+  name: "Summer Berries Gin"
+  abv: "37.50"
+  style: "F"
+  desc: "London Dry Gin with a rich infusion of summer berries to create a gin to be enjoyed on those lazy, hazy days of summer."
+
+- distillery: "Brewdog"
+  name: "Lone Wolf Gin"
+  abv: "44.00"
+  style: "NW"
+  desc: "With lemongrass, lime leaf, spices and oily juniper."
+
+- distillery: "Brockmans"
+  name: "Brockmans Gin"
+  abv: "40.00"
+  style: "NW"
+  desc: "A Gin Like no other. Smooth and fruity."
+
+- distillery: "Bullards"
+  name: "Strawberry & Black Pepper Gin"
+  abv: "40.00"
+  style: "F"
+  desc: "Sweet and fruity to taste (with just a hint of tartness) the peppery juniper is offset with the black pepper."
+
+- distillery: "Caorunn"
+  name: "Caorunn Gin"
+  abv: "41.80"
+  style: "NW"
+  desc: "Orange oil, rosemary & subtle sweetness of heather honey."
+
+- distillery: "Chase"
+  name: "Rhubarb & Bramley Apple Gin"
+  abv: "40.00"
+  style: "F"
+  desc: "Tangy and tart rhubarb & Bramley apple gin is carefully crafted with freshly pressed rhubarb and Bramley apple juice."
+
+- distillery: "Chase"
+  name: "Seville Marmalade Orange Gin"
+  abv: "40.00"
+  style: "F"
+  desc: "Smooth and sweet orange tones, well rounded. Full bodied, finishing with a burst of fresh orange zest."
+
+- distillery: "City of London"
+  name: "Square Mile Gin"
+  abv: "47.30"
+  style: "LD"
+  desc: "London dry gin flavoured with juniper berries, coriander seeds, angelica, liquorice, orange, lemon and other botanicals."
+
+- distillery: "Daffy's Gin"
+  name: "Daffy's Gin"
+  abv: "42.70"
+  style: "NW"
+  desc: "A balance of citrus, junipers and coriander. Soft & supple, plenty of juniper elements, a touch of spearmint."
+
+- distillery: "Daffy's Gin"
+  name: "Daffy's Gin"
+  abv: "42.70"
+  style: "NW"
+  desc: "A balance of citrus, junipers and coriander. Soft & supple, plenty of juniper elements, a touch of spearmint."
+
+
+
+#17 EDEN MILL LOVE GIN 42.00% LD A Pink Gin with an outstanding blend of botanicals and exotic fruits. Its pale colour when poured and when diluted.
+#18 FENLAND AURORA (WISBECH) 42.00% NW Our London Dry Gin infused with a flower which turns it blue. Add tonic and it changes to pink/purple.
+#19 FENLAND LONDON GIN (WISBECH) 42.00% LD "London Dry Gin is re distilled with juniper, coriander, angelica root, cardamon, Sichuan pepper and a freshly picked bay leaf "
+#20 GUNPOWDER IRISH GIN 43.00% LD Bright citrus and green tea notes are complemented by the spices.
+#21 HAYMAN'S OLD TOM GIN 40.00% OT "Subtly sweet, though maintains a herbaceous quality throughout."
+#22 HENDRICKS GIN 41.40% OT "Cucumber is a main botanical, a unique, incredibly refreshing."
+#23 HOXTON GIN COCONUT 43.00% NW "Tropical, coconut rum-like, perfumed with sweet citrus and soft juniper developing on the late palate and finish."
+#24 JINZU GIN 41.30% NW "English and Japanese traditions to create an exciting, intriguing spirit. ."
+#25 LYME BAY DRY GIN (LYME BAY) 40.00% LD "Grapefruit, lime, verbena, orris, a good core of spicy juniper."
+#26 LYME BAY ORANGE &THYME 40.00% F "With bittersweet citrus flavours of blood orange with gentle peppermint notes of thyme. Combining with juniper, coriander & angelica."
+#27 LYME BAY PINK GRAPEFRUIT GIN 40.00% F A beautiful marriage of the floral and citrus flavours.
+#28 MALFY'S LEMMON GIN 41.00% F "Infused with Lemons,Dry and crisp. Notes of juniper, anise and coriander. "
+#29 MALFY'S ORANGE GIN 41.00% F "Juniper, Sicilian Blood Oranges and 6 botanicals."
+#30 MASONS YORKSHIRE GIN 42.00% NW "Juniper,Lime and Orange Flavours."
+#31 MASONS YORKSHIRE LAVENDER GIN 42.00% F Subtly sweet notes of Lavender.
+#32 MASONS PEPPERED PEAR 42.00% F The aromatic spiciness lingers on with the juniper and some citrus. Warm and zesty.
+#33 NELSONS RHUBARB AND CUSTARD GIN 41.00% F "Sharp, sweet rhubarb and mellow vanilla ."
+#34 NORDE'S GALICIAN GIN (SPANISH) 40.00% NW Fresh and Fruity on the palate.
+#35 PEAKY BLINDERS GIN (SADLERS BREWERY) 40.00% F Nine Botanicals & Exotic Spices.
+#36 PIN GIN LINCOLNSHIRE 40.00% NW "Elegant floral notes ,orange, lime and cinnamon. "
+#37 ROUNDWOOD LONDON DRY ( HUNTINGDON) 40.00% LD "A smooth, well-balanced gin with a citrusy nose, bursts of elderberry and a long, juniper finish."
+#38 SIBLINGS STRAWBERRY & BLACK PEPPER 42.00% F Infused with fresh strawberries and warm black pepper this is the perfect gin for the summer.
+#39 SLINGSBY GOOSEBERRY GIN 40.00% F "Tangy gooseberry sharpness is ever present, alongside a balancing fruity sweetness and citrus notes."
+#40 TANQUERAY FLOR DE SEVILLA ORANGE 41.30% F Zesty & bittersweet taste of Seville Oranges.
+#41 TARQUIN'S BLACKBERRY GIN 38.00% F Full of Blackberry and Honey flavour's.
+#42 TITANIC PLUM GIN 40.00% F "With selected botanicals as well as the sweetness of the plums , this gin is smooth and rich."
+#43 THE BOTANIST GIN 46.00% LD Made with a massive 31 Botanicals.
+#44 TWO BIRDS OLD TOM GIN 40.00% OT A sweeter Victorian Style Gin
+#45 WARNER EDWARDS ELDERFLOWER GIN 40.00% F An aperitif - sweet dry and gorgeous with a good tonic.
+#46 WARNER EDWARDS HONEY BEE GIN 40.00% F Made with Honey from there own Farm Bees.
+#47 WHITLEY NEILL PARMA VIOLET GIN 43.00% F A handcrafted gin of exceptional quality with bright vibrant flavours of juniper followed by a herbaceous floral note from the Violet
+#48 WHITLEY NEILL QUINCE GIN 43.00% F "The distinctive flavour of quince dominates the palate, giving way to the sweetness of apricots and peaches, with a long, fruity finish."
+#49 WHITLEY NEILL RASPBERRY GIN 43.00% F "Not as sweet as you'd expect, raspberry fruitiness . "
+#50 WHITLEY NEILL RHUBARB & GINGER GIN 43.00% F Tart Rhubarb crispness &Ginger giving a warm Character.
+#51 XOLATO CHOCOLATE GIN (XGIN) 44.00% F "Creamy and vanilla forward, with elegant juniper and a clear, delicious spark of dark chocolate at its core."
+#52 YORK GIN ROMAN FRUITS 42.50% F "Juicy red fruit notes are up-front and lively, but the earthy gin-based elements stay in control throughout."

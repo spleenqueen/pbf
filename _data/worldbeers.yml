@@ -167,10 +167,10 @@
   country: "Belgium"
 
 - brewery: "Huyghe"
-  beer: "Delirium Red33"
+  beer: "Delirium Red"
   desc: "Dark red colour, with a light pink head. Soft fruity with hints of almond and mildly sour cherries."
-  abv: "c.0"
-  size: "lirium Red33 cl"
+  abv: "8.0"
+  size: "33 cl"
   country: "Belgium"
 
 - brewery: "Huyghe"
@@ -475,10 +475,10 @@
   country: "Germany"
 
 - brewery: "Erdinger"
-  beer: "Alkoholfrei50"
+  beer: "Erdinger Alkoholfrei"
   desc: "Light straw color; Light body; Aroma and flavor of malt, yeast, light hops, some citrus, and grain"
-  abv: "c.0"
-  size: "koholfrei50 cl"
+  abv: "0.4"
+  size: "50 cl"
   country: "Germany"
 
 - brewery: "Flensburger"
@@ -573,10 +573,10 @@
   country: "Germany"
 
 - brewery: "Mythos "
-  beer: "Mythos 33"
+  beer: "Mythos"
   desc: "Clear golden. Aroma is straw some faint noble hops and some mealy stuff. Taste is some aggressive sour and bubbly with harsh bitter base."
-  abv: "c.0"
-  size: "thos 33 cl"
+  abv: "5.0"
+  size: "33 cl"
   country: "Greece"
 
 - brewery: "Einstock Brewing Company"
