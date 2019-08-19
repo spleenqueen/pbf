@@ -1,0 +1,69 @@
+- winery: "Iceni Meadery"
+  name: "Three types to try"
+  abv: "Varying"
+  desc: ""
+
+- winery: "Lyme Bay Winery"
+  name: "Apricot Medium Sweet"
+  abv: "11"
+  desc: "Richly scented, golden sweet wine with the lingering flavour of soft ripe fruit."
+
+- winery: "Lyme Bay Winery"
+  name: "Blackberry Medium"
+  abv: "11"
+  desc: "Bursting with the full flavour and heady aroma of ripe hedgerow fruit."
+
+- winery: "Lyme Bay Winery"
+  name: "Blackcurrant Medium Sweet"
+  abv: "11"
+  desc: "A sweet, scented wine with the full fruity flavour of dark berries."
+
+- winery: "Lyme Bay Winery"
+  name: "Cherry Sweet"
+  abv: "11"
+  desc: "Real cherry aroma and full black fruit flavour."
+
+- winery: "Lyme Bay Winery"
+  name: "Damson"
+  abv: "11"
+  desc: "A mellow, Off dry wine that's a traditional favourite. Light & well balanced with a hint of pepper."
+
+- winery: "Lyme Bay Winery"
+  name: "Elderflower Dry"
+  abv: "11"
+  desc: "Old fashioned, floral flavours. A perfect picnic, aperitif or lunchtime wine."
+
+- winery: "Lyme Bay Winery"
+  name: "Ginger Sweet"
+  abv: "14.5"
+  desc: "Classic, smooth, heart-warming ginger wine."
+
+- winery: "Lyme Bay Winery"
+  name: "Gooseberry Off/Dry"
+  abv: "11"
+  desc: "An appealing, light wine with generously ripe gooseberry character."
+
+- winery: "Lyme Bay Winery"
+  name: "Peach"
+  abv: "11"
+  desc: "Medium Sweet, deliciously scented smooth summery wine with soft ripe fruit flavours."
+
+- winery: "Lyme Bay Winery"
+  name: "Plum Medium"
+  abv: "11"
+  desc: "Absolutely delicious, rich ripe plum flavour."
+
+- winery: "Lyme Bay Winery"
+  name: "Raspberry Medium"
+  abv: "11"
+  desc: "Ripe raspberry character and a real berry aroma."
+
+- winery: "Lyme Bay Winery"
+  name: "Strawberry Medium"
+  abv: "11"
+  desc: "Lusciously fruity with a very intense bouquet. Great as a spritzer with bubbly or soda."
+
+- winery: "Lyme Bay Winery"
+  name: "West County Mead"
+  abv: "14.5"
+  desc: "A Medium Sweet honey-based wine with a sweet spicy overtone."

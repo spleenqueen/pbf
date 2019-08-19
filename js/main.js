@@ -34,7 +34,7 @@ $(function () {
         e.preventDefault();
     });
 
-    $('#toggle-desc').change(function() {
+    $('[id^="toggle-desc"]').change(function() {
         var $descriptions = $('.toggle-desc');
         if ($(this).is(':checked')) {
             $descriptions.show();

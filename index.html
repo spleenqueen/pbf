@@ -89,11 +89,11 @@ layout: default
                             <span class="name">{{ beer.beer }}</span>
                         </a>
                         <div class="modal fade" id="desc{{ forloop.index }}" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             aria-labelledby="descModal{{ forloop.index }}" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">{{ beer.beer }} ({{ beer.brewery
+                                        <h5 class="modal-title" id="descModal{{ forloop.index }}">{{ beer.beer }} ({{ beer.brewery
                                             }})</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
