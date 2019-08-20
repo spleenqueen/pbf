@@ -104,9 +104,9 @@
   country: "Belgium"
 
 - brewery: "Dubuisson"
-  beer: "Bush Ambree (Scaldis) "
+  beer: "Bush Ambree (Scaldis)"
   desc: "Its amber colour is due to the use of caramel malt in the production process. Its bitter sweet taste provides it with firmness and personality."
-  abv: "2.0"
+  abv: "12.0"
   size: "33 cl"
   country: "Belgium"
 
@@ -139,9 +139,9 @@
   country: "Belgium"
 
 - brewery: "Gulden Draak"
-  beer: "Gulden Draak "
+  beer: "Gulden Draak"
   desc: "Dark Triple Ale brewed with caramel malt and re-fermented with Bordeaux wine yeast"
-  abv: "0.5"
+  abv: "10.5"
   size: "33 cl"
   country: "Belgium"
 
@@ -265,9 +265,9 @@
   country: "Belgium"
 
 - brewery: "Rochefort"
-  beer: "Rochefort 10 "
+  beer: "Rochefort 10"
   desc: "Deep dark reddish brown, potent. Complex fruit flavours & a hint of dark chocolate. Arguably the finest Trappist beer."
-  abv: "1.3"
+  abv: "11.3"
   size: "33 cl"
   country: "Belgium"
 
@@ -489,9 +489,9 @@
   country: "Germany"
 
 - brewery: "Ganstaller"
-  beer: "Schwarz beer "
+  beer: "Schwarz beer"
   desc: "Hazy, deep brown, thin tan head. Aromas of dark chocolate and dark fruits. Rich, dense mouthfeel. Flavours are roasted malts, coffee, dark chocolate."
-  abv: "1.9"
+  abv: "11.9"
   size: "33 cl"
   country: "Germany"
 
@@ -538,9 +538,9 @@
   country: "Germany"
 
 - brewery: "Schneider"
-  beer: "Aventinus Weizen-Eisbock "
+  beer: "Aventinus Weizen-Eisbock"
   desc: "This Wheat Doppelbock of Bavaria, has always been known to be the most intense and complex wheat beer in the world"
-  abv: "2.0"
+  abv: "12.0"
   size: "33 cl"
   country: "Germany"
 
@@ -832,9 +832,9 @@
   country: "USA"
 
 - brewery: "Evil Twin"
-  beer: "Jungle Baby "
+  beer: "Jungle Baby"
   desc: "Black colour Aroma: Dark chocolate, liqourice, roasted malt and coffee. Taste: bitter chocolate and liqourice with a tiny hint of chili."
-  abv: "2.0"
+  abv: "12.0"
   size: "50 cl"
   country: "USA"
 

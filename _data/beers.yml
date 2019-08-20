@@ -2104,8 +2104,8 @@
 
 - brewery: "Parish"
   new_brewery: false
-  beer: "Baz's Bonce Blower "
-  abv: "2.0"
+  beer: "Baz's Bonce Blower"
+  abv: "12.0"
   bar:
     - "Main Bar 3"
   desc: "A festival classic and at one time (pre Brewdog) one of the strongest barley wines available"
