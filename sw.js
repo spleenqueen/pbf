@@ -2,7 +2,12 @@ var cacheName = 'pbf-cache';
 var filesToCache = [
     '/pbf',
     '/pbf/index.html',
+    '/pbf/about.html',
     '/pbf/ciders.html',
+    '/pbf/gin.html',
+    '/pbf/keykeg.html',
+    '/pbf/wine.html',
+    '/pbf/worldbeers.html',
     '/pbf/images/icons/icons.svg',
     '/pbf/css/bootstrap.min.css',
     '/pbf/css/custom.css',
