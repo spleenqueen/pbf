@@ -2,7 +2,12 @@ var cacheName = 'pbf-cache';
 var filesToCache = [
     '/pbf',
     '/pbf/index.html',
+    '/pbf/about.html',
     '/pbf/ciders.html',
+    '/pbf/gin.html',
+    '/pbf/keykeg.html',
+    '/pbf/wine.html',
+    '/pbf/worldbeers.html',
     '/pbf/images/icons/icons.svg',
     '/pbf/css/bootstrap.min.css',
     '/pbf/css/custom.css',
@@ -21,13 +26,15 @@ self.addEventListener('install', function(e) {
     );
 });
 
-/* Serve cached content when offline */
-self.addEventListener('fetch', function(e) {
-    e.respondWith(
-        caches.match(e.request).then(function(response) {
-            return response || fetch(e.request);
-        })
-    );
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.open(cacheName).then(function(cache) {
+      return fetch(event.request).then(function(response) {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    })
+  );
 });
 
 self.addEventListener('activate', function(event) {
